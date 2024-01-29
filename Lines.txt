@@ -1,0 +1,947 @@
+ShapeLineId,ShapeTemplateId,DesignName,StartX,StartY,EndX,EndY,Description,LineType
+1,1,A,G + 0,CG + W + 0,G + 0,CG + W + D,,Crease
+2,1,A,G + L,CG + W + 0,G + L,CG + W + D,,Crease
+3,1,A,G + L + W,CG + W + 0,G + L + W,CG + W + D,,Crease
+4,1,A,G + L + W + L,CG + W + 0,G + L + W + L,CG + W + D,,Crease
+5,1,A,G + 0,CG + W + D + X4,G + L,CG + W + D + X4,,Crease
+6,1,A,G + L,CG + W + D,G + L + W - Y1,CG + W + D,,Crease
+7,1,A,G + L + W + L + Y1,CG + W + D,G + L + W + L + W - CTBK,CG + W + D,,Crease
+8,1,A,G + L + Y1,CG + W + 0,G + L + W,CG + W + 0,,Crease
+9,1,A,G + L + W,CG + W + 0,G + L + W + L,CG + W + 0,,Crease
+10,1,A,G + L + W + L,CG + W + 0,G + L + W + L + W - Y1,CG + W + 0,,Crease
+11,1,A,G + E,CG + W + D + W - R5,G + L - E,CG + W + D + W - R5,,Crease
+12,1,A,G + L + W + E,CG + W + ( - W  +  R5 ),G + L + W + L - E,CG + W + (- W + R5 ),,Crease
+13,1,A,G + L + W,CG + W + D,G + L + W + L,CG + W + D,,Cut
+14,1,A,G + 0,CG + W + 0,G + L,CG + W + 0,,Cut
+15,1,A,( G + L + W + L + W ) - CTBK,CG + W + 0,G + ( L + W + L + W ) - CTBK,CG + W + D,,Cut
+16,1,A,G + 0,CG + W + 0,0,CG + W + ( tan ( T  * ( 22  /  7 ) / 180 ) *  G ),,Cut
+17,1,A,0,CG + W + ( Tan ( T *  ( 22  /  7 ) / 180  )  *  G  ),0,CG + W + D - (( tan ( T  * (22 / 7) / 180) *  G )),,Cut
+18,1,A,0,CG + W + D - ( ( Tan (  T  *  ( 22 / 7) / 180 ) *  G )),G + 0,CG + W + D,,Cut
+19,1,A,G + 0,CG + W + D,G + 0,CG + W + D + W - R5,,Cut
+20,1,A,G + R5,CG + W + D + W,G + E - R5,CG + W + D + W,,Cut
+21,1,A,G + E,CG + W + D + W - R5,G + E,CG + W + D + W - R5 - X5,,Cut
+22,1,A,G + L,CG + W + D,G + L,CG + W + D + W - R5,,Cut
+23,1,A,G + L - R5,CG + W + D + W,G + L - E + R5,CG + W + D + W,,Cut
+24,1,A,G + L - E,CG + W + D + W - R5,G + L - E,CG + W + D + W - R5 - X5,,Cut
+25,1,A,G + Y + C,CG + W + D + W + X4 + C,G + L - Y - C,CG + W + D + W + X4 + C,,Cut
+26,1,A,G + L + W,CG + W + 0,G + L + W,CG + W -W + R5,,Cut
+27,1,A,G + L + W + R5,CG + W -W,G + L + W + E - R5,CG + W -W,,Cut
+28,1,A,G + L + W + E,CG + W -W + R5,G + L + W + E,CG + W -W + R5 + X5,,Cut
+29,1,A,G + L + W + L,CG + W + 0,G + L + W + L,CG + W -W + R5,,Cut
+30,1,A,G + L + W + L - R5,CG + W -W,G + L + W + L - E + R5,CG + W -W,,Cut
+31,1,A,G + L + W + L - E,CG + W -W + R5,G + L + W + L - E,CG + W -W + R5 + X5,,Cut
+32,1,A,G + L + W + Y + C,CG + W + (-W - X4 - C),G + L + W + L - Y - C,CG + W -W - X4 - C,,Cut
+33,1,A,G + L,CG + W + D,G + L + N4,CG + W + D + N4,,Cut
+34,1,A,G + L + N4,CG + W + D + N4,G + L + N4,CG + W + D + ( X4 + W - X6 + C + OFST ) / 2,,Cut
+35,1,A,G + L + W,CG + W + D,G + L + W - Y1,CG + W + D,,Cut
+36,1,A,G + L + W - Y1,CG + W + D,G + L + W - Y1,CG + W + D + S2 - R13,,Cut
+37,1,A,G + L + W - Y1 - ( TempB ),CG + W + D + S2 - R13 + ( TempP ),G + L + W - Y1 - N - ( TempB ),CG + W + D + S2 - R13 + ( TempP ) + ( N * Tan(2 * PI *  T6  / 360.0)),,Cut
+38,1,A,G + L + W - Y1 - N - (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)),G + L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI *  T7 / 360.0)),CG + W + D + A,,Cut
+39,1,A,G + L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * tan(2 * PI * T6 / 360.0)))) * tan(2 * PI * T7 / 360.0)),CG + W + D + A,G + L + N,CG + W + D + A,,Cut
+40,1,A,G + L + W + L + W - CTBK,CG + W + D,G + L + W + L + W - CTBK - N4,CG + W + D + N4,,Cut
+41,1,A,G + L + W + L + W - CTBK - N4,CG + W + D + N4,G + L + W + L + W - CTBK - N4,CG + W + D + ( X4 + W - X6 + C + OFST ) / 2,,Cut
+42,1,A,G + L + W + L,CG + W + D,G + L + W + L + Y1,CG + W + D,,Cut
+43,1,A,G + L + W + L + Y1,CG + W + D,G + L + W + L + Y1,CG + W + D + S2 - R13,,Cut
+44,1,A,G + L + W + L + Y1 + (TempB),CG + W + D + S2 - R13 + (TempP),G + L + W + L + Y1 + N + (TempB),CG + W + D + S2 - R13 + ( TempP ) + ( N * Tan(2 * PI * T6 / 360.0)),,Cut
+45,1,A,G + L + W + L + Y1 + N + (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)),G + L + W + L + Y1 + N + (TempB) + (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A,,Cut
+46,1,A,G + L + W + L + Y1 + N + (TempB) + (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A,G + L + W + L + W - CTBK - N,CG + W + D + A,,Cut
+47,1,A,G + L + W,CG + W + 0,G + L + W - N4,CG + W - N4,,Cut
+48,1,A,G + L + W - N4,CG+W-N4,G + L + W - N4,CG + W -( X4 + W - X6 + C + OFST ) / 2,,Cut
+49,1,A,G + L,CG + W + 0,G + L + Y1,CG + W + 0,,Cut
+50,1,A,G + L + Y1,CG + W + 0,G + L + Y1,CG + W + 0 - S2 + R13,,Cut
+51,1,A,G + L + Y1 + ( TempB ),CG + W + 0 - S2 + R13 - ( TempP ),G + L + Y1 + N + ( TempB ),CG + W + 0 - S2 + R13 - ( TempP ) - ( N * Tan(2 * PI * T6 / 360.0)),,Cut
+52,1,A,G + L + Y1 + N + ( TempB ),CG + W + 0 - S2 + R13 - ( TempP ) - ( N * Tan(2 * PI * T6 / 360.0)),G + L + Y1 + N + ( TempB ) + ((( 0 + A ) - (0 + S2 - R13 + ( TempP ) + ( N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,,Cut
+53,1,A,G + L + Y1 + N + (TempB) + (((0 + A) - (0 + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W - A,G + L + W - N,CG + W -A,,Cut
+54,1,A,G + L + W + L,CG + W + 0,G + L + W + L + N4,CG + W + 0 - N4,,Cut
+55,1,A,G + L + W + L + N4,CG + W + 0 - N4,G + L + W + L + N4,CG + W + 0 - (X4 + W - X6 + C + OFST) / 2,,Cut
+56,1,A,G + L + W + L + W - CTBK,CG + W + 0,G + L + W + L + W - Y1,CG + W + 0,,Cut
+57,1,A,G + L + W + L + W - Y1,CG + W + 0,G + L + W + L + W - Y1,CG + W + 0 - S2 + R13,,Cut
+58,1,A,G + L + W + L + W - Y1 - (TempB),CG + W + 0 - S2 + R13 - (TempP),G + L + W + L + W - Y1 - N - ( TempB ),CG + W -S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),,Cut
+59,1,A,G + L + W + L + W - Y1 - N - (TempB),CG + W -S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),G + L + W + L + W - Y1 - N - ( TempB ) - ((( D + A ) - ( D + S2 - R13 + ( TempP ) + ( N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,,Cut
+60,1,A,G + L + W + L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,G + L + W + L + N,CG + W -A,,Cut
+61,1,A,G,CG + W - BMG,G,CG + W - BMG - BM,,Registration
+62,1,A,0,CG + W - BMG,0,CG + W - BMG - BM,,Registration
+63,1,A,G + L,CG + W - BMG,G+ L,CG + W - BMG - BM,,Registration
+64,1,A,(G + L + W + L + W) - CTBK,CG + W - BMG,( G + L + W + L + W ) - CTBK,CG + W - BMG - BM,,Registration
+65,1,A,0,CG + W + D + BMG,0,CG + W + D + BMG + BM,,Registration
+66,1,A,G + L + W,CG + W + D + BMG,G + L + W,CG + W + D + BMG + BM,,Registration
+67,1,A,G + L + W + L,CG + W + D + BMG,G + L + W + L,CG + W + D + BMG + BM,,Registration
+68,1,A,(G + L + W + L + W) - CTBK,CG + W + D + BMG,( G + L + W + L + W ) - CTBK,CG + W + D + BMG + BM,,Registration
+69,1,A,G  - BMG,CG + W + 0,G - BMG - BM,CG + W + 0,,Registration
+70,1,A,G  - BMG,CG + W + D + X4,G - BMG - BM,CG + W + D + X4,,Registration
+71,1,A,(G + L + W + L + W) - CTBK + BMG,CG + W + D,( G + L + W + L + W ) - CTBK + BMG + BM,CG + W + D,,Registration
+72,1,A,(G + L + W + L + W) - CTBK + BMG,CG + W + 0,( G + L + W + L + W ) - CTBK + BMG + BM,CG + W + 0,,Registration
+73,1,A,G + L + W - BMG,CG + W + (-W + R5),G + L + W - BMG - BM,CG + W + (-W + R5),,Registration
+74,1,A,G + L + W + L + BMG,CG + W + (-W + R5),G + L + W + L + BMG + BM,CG + W + (-W + R5),,Registration
+75,1,A,G - BMG,CG + W + D + W - R5,G - BMG - BM,CG + W + D + W - R5,,Registration
+76,1,A,G + L + BMG,CG + W + D + W - R5,G + L + BMG + BM,CG + W + D + W - R5,,Registration
+77,2,A,G + 0,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + 0,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+78,2,A,G + L,CG + W + CTBK - (CG + W - (W * LOCK_PERCENTAGE %)),G + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+79,2,A,G + L + W,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+80,2,A,G + L + W + L,CG + W + CTBK - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+81,2,A,G + 0,CG + W + D + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L,CG + W + D + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+82,2,A,G + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W - Y1,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+83,2,A,G + L + W + L + Y1,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + W - CTBK,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+84,2,A,G + L + Y1,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+85,2,A,G + L + W,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L - CTBK,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+86,2,A,G + L + W + L + CTBK,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + W - Y1,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+87,2,A,G + E,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - E,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+88,2,A,G + L + W,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+89,2,A,G + 0,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - CTBK,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+90,2,A,(G + L + W + L + W) - CTBK,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + ( L + W + L + W ) - CTBK,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+91,2,A,G + 0,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),0,CG + W + (Tan(T * (22 / 7) / 180) * G) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+92,2,A,0,CG + W + (Tan(T * (22 / 7) / 180) * G) - (CG + W - (W * LOCK_PERCENTAGE %)),0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+93,2,A,0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)) - (CG + W - (W * LOCK_PERCENTAGE %)),G + 0,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+94,2,A,G + 0,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + 0,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+95,2,A,G + R5,CG + W + D + W - (CG + W - (W * LOCK_PERCENTAGE %)),G + E - R5,CG + W + D + W - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+96,2,A,G + E,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),G + E,CG + W + D + W - R5 - X5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+97,2,A,G + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+98,2,A,G + L - R5,CG + W + D + W - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - E + R5,CG + W + D + W - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+99,2,A,G + L - E,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - E,CG + W + D + W - R5 - X5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+100,2,A,G + Y + C,CG + W + D + W + X4 + C - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - Y - C,CG + W + D + W + X4 + C - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+101,2,A,G + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + N4,CG + W + D + N4 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+102,2,A,G + L + N4,CG + W + D + N4 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + N4,CG + W + D + (X4 + W - X6 + C + OFST) / 2 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+103,2,A,G + L + W,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W - Y1,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+104,2,A,G + L + W - Y1,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W - Y1,CG + W + D + S2 - R13 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+105,2,A,G + L + W - Y1 - (TempB),CG + W + D + S2 - R13 + (TempP) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W - Y1 - N - ( TempB ),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+106,2,A,G + L + W - Y1 - N - (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W - Y1 - N - ( TempB ) - ((( D + A ) - ( D + S2 - R13 + ( TempP ) + ( N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+107,2,A,G + L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + N,CG + W + D + A - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+108,2,A,G + L + W + L + W - CTBK,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + W - CTBK - N4,CG + W + D + N4 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+109,2,A,G + L + W + L + W - CTBK - N4,CG + W + D + N4 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + W - CTBK - N4,CG + W + D + (X4 + W - X6 + C + OFST) / 2 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+110,2,A,G + L + W + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + Y1,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+111,2,A,G + L + W + L + Y1,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + Y1,CG + W + D + S2 - R13 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+112,2,A,G + L + W + L + Y1 + (TempB),CG + W + D + S2 - R13 + (TempP) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + Y1 + N + ( TempB ),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+113,2,A,G + L + W + L + Y1 + N + (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + Y1 + N + ( TempB ) + ((( D + A ) - ( D + S2 - R13 + ( TempP ) + ( N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+114,2,A,G + L + W + L + Y1 + N + (TempB) + (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + W - CTBK - N,CG + W + D + A - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+115,2,A,G,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),G + N4,CG + W - N4 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+116,2,A,G + N4,CG + W - N4 - (CG + W - (W * LOCK_PERCENTAGE %)),G + N4,CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+117,2,A,G + N4,CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),G + N4 + ( L /4),CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+118,2,A,G + N4 + (L/4),CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),G + ( L /2),CG + W - (W/2 + S16) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+119,2,A,G + (L/2),CG + W - (W/2 + S16) - (CG + W - (W * LOCK_PERCENTAGE %)),G + ( L /2),CG + W - (W/2) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+120,2,A,G + (L/2),CG + W - (W/2) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - (TAN ( T61 * (22 / 7) / 180) * W /2),CG + W - (W/2) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+121,2,A,G + L - (TAN (T61 * (22 / 7) / 180) * W/2),CG + W - (W/2) - (CG + W - (W * LOCK_PERCENTAGE %)),(((CG + W - ( W /2)) - ( CG + W - ( W * LOCK_PERCENTAGE %))) * TAN ( T61 * (22 / 7) / 180)) + G + L - (TAN ( T61 * (22 / 7) / 180) * W /2),CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+122,2,A,(((CG + W - (W/2)) - (CG + W - (W * LOCK_PERCENTAGE %))) * TAN (T61 * (22 / 7) / 180)) + G + L - (TAN (T61 * (22 / 7) / 180) * W/2),CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - N5,CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+123,2,A,G + L - N5,CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - N5,CG + W - ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) +((TAN (T61 * (22 / 7) / 180) * N5)) + ((TAN (T61 * (22 / 7) / 180) * N5))) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+124,2,A,G + L - N5,CG + W - ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) +((TAN (T61 * (22 / 7) / 180) * N5)) + ((TAN (T61 * (22 / 7) / 180) * N5))) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - N5 - N5,CG + W - ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) +((TAN (T61 * (22 / 7) / 180) * N5)) + ((TAN (T61 * (22 / 7) / 180) * N5))) + N5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+125,2,A,G + L - N5 - N5,CG + W - ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) +((TAN (T61 * (22 / 7) / 180) * N5)) + ((TAN (T61 * (22 / 7) / 180) * N5))) + N5 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - N5,CG + W - ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) +((TAN (T61 * (22 / 7) / 180) * N5)) + ((TAN (T61 * (22 / 7) / 180) * N5))) + N5 + N5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+126,2,A,G + L - N5,CG + W - ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) +((TAN (T61 * (22 / 7) / 180) * N5)) + ((TAN (T61 * (22 / 7) / 180) * N5))) + N5 + N5 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - CTBK,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+127,2,A,G + L - N5 - N5 + CTBK,CG + W - ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) +((TAN (T61 * (22 / 7) / 180) * N5)) + ((TAN (T61 * (22 / 7) / 180) * N5))) + N5 - CTBK - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - (TAN ( T61 * (22 / 7) / 180) * W /2) + CTBK,CG + W - (W/2) - CTBK - (CG + W - (W * LOCK_PERCENTAGE %)),,Partial Cut
+128,2,A,L + W + G,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),L + W + G + N4,CG + W - N4 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+129,2,A,L + W + G + N4,CG + W - N4 - (CG + W - (W * LOCK_PERCENTAGE %)),L + W + G + N4,CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+130,2,A,L + W + G + N4,CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),L + W + G + N4 + ( L /4),CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+131,2,A,L + W + G + N4 + (L/4),CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),L + W + G + ( L /2),CG + W - (W/2 + S16) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+132,2,A,L + W + G + (L/2),CG + W - (W/2 + S16) - (CG + W - (W * LOCK_PERCENTAGE %)),L + W + G + ( L /2),CG + W - (W/2) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+133,2,A,L + W + G + (L/2),CG + W - (W/2) - (CG + W - (W * LOCK_PERCENTAGE %)),L + W + G + L - (TAN ( T61 * (22 / 7) / 180) * W /2),CG + W - (W/2) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+134,2,A,L + W + G + L - (TAN (T61 * (22 / 7) / 180) * W/2),CG + W - (W/2) - (CG + W - (W * LOCK_PERCENTAGE %)),L + W + ((( CG + W - ( W /2)) - ( CG + W - ( W * LOCK_PERCENTAGE %))) * TAN ( T61 * (22 / 7) / 180)) + G + L - (TAN ( T61 * (22 / 7) / 180) * W /2),CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+135,2,A,L + W + (((CG + W - (W/2)) - (CG + W - (W * LOCK_PERCENTAGE %))) * TAN (T61 * (22 / 7) / 180)) + G + L - (TAN (T61 * (22 / 7) / 180) * W/2),CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),L + W + G + L - N5,CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+136,2,A,L + W + G + L - N5,CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),L + W + G + L - N5,CG + W - ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) +((TAN (T61 * (22 / 7) / 180) * N5)) + ((TAN (T61 * (22 / 7) / 180) * N5))) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+137,2,A,L + W + G + L - N5,CG + W - ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) +((TAN (T61 * (22 / 7) / 180) * N5)) + ((TAN (T61 * (22 / 7) / 180) * N5))) - (CG + W - (W * LOCK_PERCENTAGE %)),L + W + G + L - N5 - N5,CG + W - ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) +((TAN (T61 * (22 / 7) / 180) * N5)) + ((TAN (T61 * (22 / 7) / 180) * N5))) + N5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+138,2,A,L + W + G + L - N5 - N5,CG + W - ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) +((TAN (T61 * (22 / 7) / 180) * N5)) + ((TAN (T61 * (22 / 7) / 180) * N5))) + N5 - (CG + W - (W * LOCK_PERCENTAGE %)),L + W + G + L - N5,CG + W - ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) +((TAN (T61 * (22 / 7) / 180) * N5)) + ((TAN (T61 * (22 / 7) / 180) * N5))) + N5 + N5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+139,2,A,L + W + G + L - N5,CG + W - ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) +((TAN (T61 * (22 / 7) / 180) * N5)) + ((TAN (T61 * (22 / 7) / 180) * N5))) + N5 + N5 - (CG + W - (W * LOCK_PERCENTAGE %)),L + W + G + L - CTBK,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+140,2,A,L + W + G + L - N5 - N5 + CTBK,CG + W - ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) +((TAN (T61 * (22 / 7) / 180) * N5)) + ((TAN (T61 * (22 / 7) / 180) * N5))) + N5 - CTBK - (CG + W - (W * LOCK_PERCENTAGE %)),L + W + G + L - (TAN ( T61 * (22 / 7) / 180) *  W /2) + CTBK,CG + W - (W/2) - CTBK - (CG + W - (W * LOCK_PERCENTAGE %)),,Partial Cut
+141,2,A,G + L + Y1,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + CTBK + (TAN ( T62 * (22 / 7) / 180) * ( W /2)),CG + W - (W/2) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+142,2,A,G + L + CTBK + (TAN (T62 * (22 / 7) / 180) * (W/2)),CG + W - (W/2) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W - (TAN ( T60 * (22 / 7) / 180) * ( W /2)),CG + W - (W/2) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+143,2,A,G + L + W - (TAN (T60 * (22 / 7) / 180) * (W/2)),CG + W - (W/2) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+144,2,A,G + L + W + L + Y1,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + CTBK + (TAN ( T62 * (22 / 7) / 180) * ( W /2)),CG + W - (W/2) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+145,2,A,G + L + W + L + CTBK + (TAN (T62 * (22 / 7) / 180) * (W/2)),CG + W - (W/2) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + W - (TAN ( T60 * (22 / 7) / 180) * ( W /2)),CG + W - (W/2) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+146,2,A,G + L + W + L + W - (TAN (T60 * (22 / 7) / 180) * (W/2)),CG + W - (W/2) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + W - CTBK,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+147,2,B,G + 0,CG + W + 0,G + 0,CG + W + D,,Crease
+148,2,B,G + L,CG + W + 0,G + L,CG + W + D - CTBK,,Crease
+149,2,B,G + L + W,CG + W + 0,G + L + W,CG + W + D,,Crease
+150,2,B,G + L + W + L,CG + W + 0,G + L + W + L,CG + W + D - CTBK,,Crease
+151,2,B,G + 0,CG + W + D + X4,G + L - CTBK,CG + W + D + X4,,Crease
+152,2,B,G + L + CTBK,CG + W + D,G + L + W,CG + W + D,,Crease
+153,2,B,G + L + W + L + Y1,CG + W + D,G + L + W + L + W - CTBK,CG + W + D,,Crease
+154,2,B,G + L + Y1,CG + W + 0,G + L + W,CG + W + 0,,Crease
+155,2,B,G + L + W,CG + W + 0,G + L + W + L,CG + W + 0,,Crease
+156,2,B,G + L + W + L,CG + W + 0,G + L + W + L + W - Y1,CG + W + 0,,Crease
+157,2,B,G + L + W + E,CG + W + (-W + R5),G + L + W + L - E,CG + W + (-W + R5),,Crease
+158,2,B,G + L + W,CG + W + D,G + L + W + L - CTBK,CG + W + D,,Crease
+159,2,B,G + 0,CG + W + 0,G + L,CG + W + 0,,Cut
+160,2,B,(G + L + W + L + W) - CTBK,CG + W + 0,G + ( L + W + L + W ) - CTBK,CG + W + D,,Cut
+161,2,B,G + 0,CG + W + 0,0,CG + W + (Tan(T * (22 / 7) / 180) * G),,Cut
+162,2,B,0,CG + W + (Tan(T * (22 / 7) / 180) * G),0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)),,Cut
+163,2,B,0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)),G + 0,CG + W + D,,Cut
+164,2,B,G + L + W,CG + W + 0,G + L + W,CG + W -W + R5,,Cut
+165,2,B,G + L + W + R5,CG + W -W,G + L + W + E - R5,CG + W -W,,Cut
+166,2,B,G + L + W + E,CG + W -W + R5,G + L + W + E,CG + W -W + R5 + X5,,Cut
+167,2,B,G + L + W + L,CG + W + 0,G + L + W + L,CG + W -W + R5,,Cut
+168,2,B,G + L + W + L - R5,CG + W -W,G + L + W + L - E + R5,CG + W -W,,Cut
+169,2,B,G + L + W + L - E,CG + W -W + R5,G + L + W + L - E,CG + W -W + R5 + X5,,Cut
+170,2,B,G + L + W + Y + C,CG + W + (-W - X4 - C),G + L + W + L - Y - C,CG + W -W - X4 - C,,Cut
+171,2,B,G + L + W,CG + W + 0,G + L + W - N4,CG+W-N4,,Cut
+172,2,B,G + L + W - N4,CG+W-N4,G + L + W - N4,CG + W -(X4 + W - X6 + C + OFST) / 2,,Cut
+173,2,B,G + L,CG + W + 0,G + L + Y1,CG + W + 0,,Cut
+174,2,B,G + L + Y1,CG + W + 0,G + L + Y1,CG + W + 0 - S2 + R13,,Cut
+175,2,B,G + L + Y1 + (TempB),CG + W + 0 - S2 + R13 - (TempP),G + L + Y1 + N + ( TempB ),CG + W + 0 - S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),,Cut
+176,2,B,G + L + Y1 + N + (TempB),CG + W + 0 - S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),G + L + Y1 + N + ( TempB ) + ((( 0 + A ) - (0 + S2 - R13 + ( TempP ) + ( N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,,Cut
+177,2,B,G + L + Y1 + N + (TempB) + (((0 + A) - (0 + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,G + L + W - N,CG + W -A,,Cut
+178,2,B,G + L + W + L,CG + W + 0,G + L + W + L + N4,CG + W + 0 - N4,,Cut
+179,2,B,G + L + W + L + N4,CG + W + 0 - N4,G + L + W + L + N4,CG + W + 0 - (X4 + W - X6 + C + OFST) / 2,,Cut
+180,2,B,G + L + W + L + W - CTBK,CG + W + 0,G + L + W + L + W - Y1,CG + W + 0,,Cut
+181,2,B,G + L + W + L + W - Y1,CG + W + 0,G + L + W + L + W - Y1,CG + W + 0 - S2 + R13,,Cut
+182,2,B,G + L + W + L + W - Y1 - (TempB),CG + W + 0 - S2 + R13 - (TempP),G + L + W + L + W - Y1 - N - ( TempB ),CG + W -S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),,Cut
+183,2,B,G + L + W + L + W - Y1 - N - (TempB),CG + W -S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),G + L + W + L + W - Y1 - N - ( TempB ) - ((( D + A ) - ( D + S2 - R13 + ( TempP ) + ( N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,,Cut
+184,2,B,G + L + W + L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,G + L + W + L + N,CG + W -A,,Cut
+185,2,B,G,CG + W + D,G + N4,CG + W + D + N4,,Cut
+186,2,B,G + N4,CG + W + D + N4,G + N4,CG + W + D + (W * LOCK_PERCENTAGE %),,Cut
+187,2,B,G + N4,CG + W + D + (W * LOCK_PERCENTAGE %),G + N4 + ( L /4),CG + W + D + (W * LOCK_PERCENTAGE %),,Cut
+188,2,B,G + N4 + (L/4),CG + W + D + (W * LOCK_PERCENTAGE %),G + ( L /2),CG + W + D + (W/2 + S16),,Cut
+189,2,B,G + (L/2),CG + W + D + (W/2 + S16),G + ( L /2),CG + W + D + (W/2),,Cut
+190,2,B,G + (L/2),CG + W + D + (W/2),G + L - (TAN ( T61 * (22 / 7) / 180) * W /2),CG + W + D + (W/2),,Cut
+191,2,B,G + L - (TAN (T61 * (22 / 7) / 180) * W/2),CG + W + D + (W/2),((( CG + W - ( W /2)) - ( CG + W - ( W * LOCK_PERCENTAGE %))) * TAN ( T61 * (22 / 7) / 180)) + G + L - (TAN ( T61 * (22 / 7) / 180) * W /2),CG + W + D + (W * LOCK_PERCENTAGE %),,Cut
+192,2,B,(((CG + W - (W/2)) - (CG + W - (W * LOCK_PERCENTAGE %))) * TAN (T61 * (22 / 7) / 180)) + G + L - (TAN (T61 * (22 / 7) / 180) * W/2),CG + W + D + (W * LOCK_PERCENTAGE %),G + L - N5,CG + W + D + (W * LOCK_PERCENTAGE %),,Cut
+193,2,B,G + L - N5,CG + W + D + (W * LOCK_PERCENTAGE %),G + L - N5,CG + W + D + ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) +((TAN (T61 * (22 / 7) / 180) * N5)) + ((TAN (T61 * (22 / 7) / 180) * N5))),,Cut
+194,2,B,G + L - N5,CG + W + D + ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) +((TAN (T61 * (22 / 7) / 180) * N5)) + ((TAN (T61 * (22 / 7) / 180) * N5))),G + L - N5 - N5,CG + W + D + ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) + ((TAN (T61 * (22 / 7) / 180) * N5)) - ((TAN (T61 * (22 / 7) / 180) * N5))) + N5,,Cut
+195,2,B,G + L - N5 - N5,CG + W + D + ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) + ((TAN (T61 * (22 / 7) / 180) * N5)) - ((TAN (T61 * (22 / 7) / 180) * N5))) + N5,G + L - N5,CG + W + D + ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) - ((TAN (T61 * (22 / 7) / 180) * N5)) - ((TAN (T61 * (22 / 7) / 180) * N5))) + N5 + N5,,Cut
+196,2,B,G + L - N5,CG + W + D + ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) - ((TAN (T61 * (22 / 7) / 180) * N5)) - ((TAN (T61 * (22 / 7) / 180) * N5))) + N5 + N5,G + L - CTBK,CG + W + D,,Cut
+197,2,B,G + L - N5 - N5 + CTBK,CG + W + D + ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) + ((TAN (T61 * (22 / 7) / 180) * N5)) - ((TAN (T61 * (22 / 7) / 180) * N5))) + N5 + CTBK,G + L - (TAN ( T61 * (22 / 7) / 180) * W /2) + CTBK,CG + W + D + ( W /2) + CTBK,,Partial Cut
+198,2,B,G + L + Y1,CG + W + D,G + L + CTBK + (TAN ( T62 * (22 / 7) / 180) * ( W /2)),CG + W + D + ( W /2),,Cut
+199,2,B,G + L + CTBK + (TAN (T62 * (22 / 7) / 180) * (W/2)),CG + W + D + (W/2),G + L + W - (TAN ( T60 * (22 / 7) / 180) * ( W /2)),CG + W + D + ( W /2),,Cut
+200,2,B,G + L + W - (TAN (T60 * (22 / 7) / 180) * (W/2)),CG + W + D + (W/2),G + L + W,CG + W + D,,Cut
+201,2,B,G + L + W,CG + W + D,G + L + W + N4,CG + W + D + N4,,Cut
+202,2,B,G + L + W + N4,CG + W + D + N4,G + L + W + N4,CG + W + D + (W * LOCK_PERCENTAGE %),,Cut
+203,2,B,G + L + W + N4,CG + W + D + (W * LOCK_PERCENTAGE %),G + L + W + N4 + (L/4),CG + W + D + (W * LOCK_PERCENTAGE %),,Cut
+204,2,B,G + L + W + N4 + (L/4),CG + W + D + (W * LOCK_PERCENTAGE %),G + L + W + (L/2),CG + W + D + (W/2 + S16),,Cut
+205,2,B,G + L + W + (L/2),CG + W + D + (W/2 + S16),G + L + W + (L/2),CG + W + D + (W/2),,Cut
+206,2,B,G + L + W + (L/2),CG + W + D + (W/2),G + L + W + L - (TAN (T61 * (22 / 7) / 180) * W/2),CG + W + D + (W/2),,Cut
+207,2,B,G + L + W + L - (TAN (T61 * (22 / 7) / 180) * W/2),CG + W + D + (W/2),(((CG + W - (W/2)) + L + W - (CG + W - (W * LOCK_PERCENTAGE %))) * TAN (T61 * (22 / 7) / 180)) + G + L - (TAN (T61 * (22 / 7) / 180) * W/2),CG + W + D + (W * LOCK_PERCENTAGE %),,Cut
+208,2,B,(((CG + W - (W/2)) + L + W - (CG + W - (W * LOCK_PERCENTAGE %))) * TAN (T61 * (22 / 7) / 180)) + G + L - (TAN (T61 * (22 / 7) / 180) * W/2),CG + W + D + (W * LOCK_PERCENTAGE %),G + L + W + L - N5,CG + W + D + (W * LOCK_PERCENTAGE %),,Cut
+209,2,B,G + L + W + L - N5,CG + W + D + (W * LOCK_PERCENTAGE %),G + L + W + L - N5,CG + W + D + ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) +((TAN (T61 * (22 / 7) / 180) * N5)) + ((TAN (T61 * (22 / 7) / 180) * N5))),,Cut
+210,2,B,G + L + W + L - N5,CG + W + D + ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) +((TAN (T61 * (22 / 7) / 180) * N5)) + ((TAN (T61 * (22 / 7) / 180) * N5))),G + L + W + L - N5 - N5,CG + W + D + ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) + ((TAN (T61 * (22 / 7) / 180) * N5)) - ((TAN (T61 * (22 / 7) / 180) * N5))) + N5,,Cut
+211,2,B,G + L + W + L - N5 - N5,CG + W + D + ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) + ((TAN (T61 * (22 / 7) / 180) * N5)) - ((TAN (T61 * (22 / 7) / 180) * N5))) + N5,G + L + W + L - N5,CG + W + D + ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) - ((TAN (T61 * (22 / 7) / 180) * N5)) - ((TAN (T61 * (22 / 7) / 180) * N5))) + N5 + N5,,Cut
+212,2,B,G + L + W + L - N5,CG + W + D + ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) - ((TAN (T61 * (22 / 7) / 180) * N5)) - ((TAN (T61 * (22 / 7) / 180) * N5))) + N5 + N5,G + L + W + L - CTBK,CG + W + D,,Cut
+213,2,B,G + L + W + L - N5 - N5 + CTBK,CG + W + D + ((TAN (T61 * (22 / 7) / 180) * (N5 - CTBK)) + ((TAN (T61 * (22 / 7) / 180) * N5)) - ((TAN (T61 * (22 / 7) / 180) * N5))) + N5 + CTBK,G + L + W + L - (TAN (T61 * (22 / 7) / 180) * W/2) + CTBK,CG + W + D + (W/2) + CTBK,,Partial Cut
+214,2,B,G + L + W + L + Y1,CG + W + D,G + L + W + L + CTBK + (TAN (T62 * (22 / 7) / 180) * (W/2)),CG + W + D + (W/2),,Cut
+215,2,B,G + L + W + L + CTBK + (TAN (T62 * (22 / 7) / 180) * (W/2)),CG + W + D + (W/2),G + L + W + L + W - CTBK - (TAN (T60 * (22 / 7) / 180) * (W/2)),CG + W + D + (W/2),,Cut
+216,2,B,G + L + W + L + W - CTBK - (TAN (T60 * (22 / 7) / 180) * (W/2)),CG + W + D + (W/2),G + L + W + L + W - CTBK,CG + W + D,,Cut
+217,2,A,0,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG,0,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG - BM,,Registration
+218,2,A,G,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG,G,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG - BM,,Registration
+219,2,A,G + L,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG,G + L,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG - BM,,Registration
+220,2,A,G + L + W,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG,G + L + W,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG - BM,,Registration
+221,2,A,G + L + W + L,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG,G + L + W + L,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG - BM,,Registration
+222,2,A,G+L+W+L+W-CTBK,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG,G+ L+W+L+W-CTBK,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG - BM,,Registration
+223,2,A,0,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG,0,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG + BM,,Registration
+224,2,A,G + L + W,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG,G + L + W,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG + BM,,Registration
+225,2,A,G + L + W + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG,G + L + W + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG + BM,,Registration
+226,2,A,G+L+W+L+W-CTBK,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG,G+L+W+L+W-CTBK,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG + BM,,Registration
+227,2,A,G-BMG,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G-BMG-BM,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),,Registration
+228,2,A,G+L+W+L+W-CTBK+BMG,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G+L+W+L+W-CTBK+BMG + BM,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),,Registration
+229,2,A,G-BMG,CG + W + D + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),G-BMG-BM,CG + W + D + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),,Registration
+230,2,A,G+L+W+L+W-CTBK+BMG,CG + W + D + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),G+L+W+L+W-CTBK+BMG + BM,CG + W + D + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),,Registration
+231,2,A,G - BMG,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),G-BMG-BM,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Registration
+232,2,A,G + L + BMG,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + BMG + BM,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Registration
+233,2,B,0,CG + W + D + BMG,0,CG + W + D + BMG + BM,,Registration
+234,2,B,G,CG + W + D + BMG,G,CG + W + D + BMG + BM,,Registration
+235,2,B,G + L,CG + W + D + BMG,G + L,CG + W + D + BMG + BM,,Registration
+236,2,B,G + L + W,CG + W + D + BMG,G + L + W,CG + W + D + BMG + BM,,Registration
+237,2,B,G + L + W + L,CG + W + D + BMG,G + L + W + L,CG + W + D + BMG + BM,,Registration
+238,2,B,G+L+W+L+W-CTBK,CG + W + D + BMG,G+ L+W+L+W-CTBK,CG + W + D + BMG + BM,,Registration
+239,2,B,0,CG + W + 0 - BMG,0,CG + W + 0 - BMG - BM,,Registration
+240,2,B,G,CG + W + 0 - BMG,G,CG + W + 0 - BMG - BM,,Registration
+241,2,B,G + L,CG + W + 0 - BMG,G + L,CG + W + 0 - BMG - BM,,Registration
+242,2,B,G+L+W+L+W-CTBK,CG + W + 0 - BMG,G+L+W+L+W-CTBK,CG + W + 0 - BMG - BM,,Registration
+243,2,B,G-BMG,CG + W + D + X4,G-BMG-BM,CG + W + D + X4,,Registration
+244,2,B,G+L+W+L+W-CTBK+BMG,CG + W + D + X4,G+L+W+L+W-CTBK+BMG + BM,CG + W + D + X4,,Registration
+245,2,B,G-BMG,CG + W + 0,G-BMG-BM,CG + W + 0,,Registration
+246,2,B,G+L+W+L+W-CTBK+BMG,CG + W + 0,G+L+W+L+W-CTBK+BMG + BM,CG + W + 0,,Registration
+247,2,B,G + L + W - BMG,CG + W + (-W + R5),G + L + W - BMG - BM,CG + W + (-W + R5),,Registration
+248,2,B,G + L + W + L + BMG,CG + W + (-W + R5),G + L + W + L + BMG + BM,CG + W + (-W + R5),,Registration
+249,3,A,G,W  * CG%,G,(W  * CG%) + D,,Crease
+250,3,A,G + L,W  * CG%,G + L,(W  * CG%) + D,,Crease
+251,3,A,G + L + W,W  * CG%,G + L + W,(W  * CG%) + D,,Crease
+252,3,A,G + L + W + L,W  * CG%,G + L + W + L,(W  * CG%) + D,,Crease
+253,3,A,G + L + W + L + W - CTBK,W  * CG%,G + L + W + L + W - CTBK,(W  * CG%) + D,,Cut
+254,3,A,G,W  * CG%,0,(W  * CG%) + (Tan(T * (22 / 7) / 180) * G),,Cut
+255,3,A,0,(W  * CG%) + (Tan(T * (22 / 7) / 180) * G),0,((W * CG%) + D) - (Tan(T * (22 / 7) / 180) * G),,Cut
+256,3,A,0,((W * CG%) + D) - (Tan(T * (22 / 7) / 180) * G),G,(W  * CG%) + D,,Cut
+257,3,A,G,(W  * CG%) + D,G,((W  * CG%) + D)  + S6,,Cut
+258,3,A,G,((W  * CG%) + D)  + S6,G + (Tan(T17 * (22 / 7) / 180) * W5),((W  * CG%) + D)  + W5,,Cut
+259,3,A,G + (Tan(T17 * (22 / 7) / 180) * W5),((W  * CG%) + D)  + W5,G + L - (Tan(T17 * (22 / 7) / 180) * W5),((W  * CG%) + D)  + W5,,Cut
+260,3,A,G + L - (Tan(T17 * (22 / 7) / 180) * W5),((W  * CG%) + D)  + W5,G + L,((W  * CG%) + D)  + S6,,Cut
+261,3,A,G + L,((W  * CG%) + D)  + S6,G + L,(W  * CG%) + D,,Cut
+262,3,A,G,(W  * CG%) + D + X4,G + L,(W  * CG%) + D + X4,,Crease
+263,3,A,G + L + N6,(W  * CG%) + D,G + L + N6,(W  * CG%) + D + S6,,Cut
+264,3,A,G + L + N6,(W  * CG%) + D + S6,G + L + N6 + (Tan(T17 * (22 / 7) / 180) * W5),((W  * CG%) + D)  + A2,,Cut
+265,3,A,G + L + N6 + (Tan(T17 * (22 / 7) / 180) * W5),((W  * CG%) + D)  + A2,G + L + W - N6 - (Tan(T17 * (22 / 7) / 180) * W5),((W  * CG%) + D)  + A2,,Cut
+266,3,A,G + L + W - N6 - (Tan(T17 * (22 / 7) / 180) * W5),((W  * CG%) + D)  + A2,G + L + W - N6,((W  * CG%) + D)  + S6,,Cut
+267,3,A,G + L + W - N6,((W  * CG%) + D)  + S6,G + L + W - N6,(W  * CG%) + D,,Cut
+268,3,A,G + L + N6,(W  * CG%) + D,G + L + W - N6,(W  * CG%) + D,,Crease
+269,3,A,G + L + W,(W  * CG%) + D,G + L + W,((W  * CG%) + D)  + S6,,Cut
+270,3,A,G + L + W,((W  * CG%) + D)  + S6,G + L + W + N6 + (Tan(T17 * (22 / 7) / 180) * W6),((W  * CG%) + D)  + W6,,Cut
+271,3,A,G + L + W + N6 + (Tan(T17 * (22 / 7) / 180) * W6),((W  * CG%) + D)  + W6,G + L + W + L - (Tan(T17 * (22 / 7) / 180) * W6),((W  * CG%) + D)  + W6,,Cut
+272,3,A,G + L + W + L - (Tan(T17 * (22 / 7) / 180) * W6),((W  * CG%) + D)  + W6,G + L + W + L,((W  * CG%) + D)  + S6,,Cut
+273,3,A,G + L + W + L,((W  * CG%) + D)  + S6,G + L + W + L,(W  * CG%) + D,,Cut
+274,3,A,G + L + W,(W  * CG%) + D + X4,G + L + W + L,(W  * CG%) + D + X4,,Crease
+275,3,A,G + L + W + L + N6,((W  * CG%) + D)  + S6,G + L + W + L + N6,(W  * CG%) + D,,Cut
+276,3,A,G + L + W + L + N6,((W  * CG%) + D)  + S6,G + L + W + L + N6 + (Tan(T17 * (22 / 7) / 180) * A3),((W  * CG%) + D)  + A3,,Cut
+277,3,A,G + L + W + L + N6 + (Tan(T17 * (22 / 7) / 180) * W5),((W  * CG%) + D)  + A2,G + L + W + L + W - N6 - (Tan(T17 * (22 / 7) / 180) * W5),((W  * CG%) + D)  + A2,,Cut
+278,3,A,G + L + W + L + W - N6 - (Tan(T17 * (22 / 7) / 180) * W5),((W  * CG%) + D)  + A2,G + L + W + L + W - CTBK,((W  * CG%) + D)  + S6,,Cut
+279,3,A,G + L + W + L + W - CTBK,((W  * CG%) + D)  + S6,G + L + W + L + W - CTBK,(W  * CG%) + D,,Cut
+280,3,A,G + L + W + L + N6,(W  * CG%) + D,G + L + W + L + W - CTBK,(W  * CG%) + D,,Crease
+281,3,A,G,(W * CG%),G,(W * CG%) - S6,,Cut
+282,3,A,G,(W * CG%) - S6,G + (Tan(T17 * (22 / 7) / 180) * W5),(W * CG%) - W5,,Cut
+283,3,A,G + (Tan(T17 * (22 / 7) / 180) * W5),(W * CG%) - W5,G + L - (Tan(T17 * (22 / 7) / 180) * W5),(W * CG%) - W5,,Cut
+284,3,A,G + L - (Tan(T17 * (22 / 7) / 180) * W5),(W * CG%) - W5,G + L,(W * CG%) - S6,,Cut
+285,3,A,G + L,(W * CG%) - S6,G + L,(W * CG%),,Cut
+286,3,A,G,(W * CG%) - X4,G + L,(W * CG%) - X4,,Crease
+287,3,A,G + L + N6,(W * CG%),G + L + N6,(W * CG%) - S6,,Cut
+288,3,A,G + L + N6,(W * CG%) - S6,G + L + N6 + (Tan(T17 * (22 / 7) / 180) * W5),(W * CG%) - A2,,Cut
+289,3,A,G + L + N6 + (Tan(T17 * (22 / 7) / 180) * W5),(W * CG%) - A2,G + L + W - N6 - (Tan(T17 * (22 / 7) / 180) * W5),(W * CG%) - A2,,Cut
+290,3,A,G + L + W - N6 - (Tan(T17 * (22 / 7) / 180) * W5),(W * CG%) - A2,G + L + W - N6,(W * CG%) - S6,,Cut
+291,3,A,G + L + W - N6,(W * CG%) - S6,G + L + W - N6,(W * CG%),,Cut
+292,3,A,G + L + N6,(W * CG%),G + L + W - N6,(W * CG%),,Crease
+293,3,A,G + L + W,(W * CG%),G + L + W,(W * CG%) - S6,,Cut
+294,3,A,G + L + W,(W * CG%) - S6,G + L + W + N6 + (Tan(T17 * (22 / 7) / 180) * W6),(W * CG%) - W6,,Cut
+295,3,A,G + L + W + N6 + (Tan(T17 * (22 / 7) / 180) * W6),(W * CG%) - W6,G + L + W + L - (Tan(T17 * (22 / 7) / 180) * W6),(W * CG%) - W6,,Cut
+296,3,A,G + L + W + L - (Tan(T17 * (22 / 7) / 180) * W6),(W * CG%) - W6,G + L + W + L,(W * CG%) - S6,,Cut
+297,3,A,G + L + W + L,(W * CG%) - S6,G + L + W + L,(W * CG%),,Cut
+298,3,A,G + L + W,(W * CG%) - X4,G + L + W + L,(W * CG%) - X4,,Crease
+299,3,A,G + L + W + L + N6,(W * CG%) - S6,G + L + W + L + N6,(W * CG%),,Cut
+300,3,A,G + L + W + L + N6,(W * CG%) - S6,G + L + W + L + N6 + (Tan(T17 * (22 / 7) / 180) * A3),(W * CG%) - A3,,Cut
+301,3,A,G + L + W + L + N6 + (Tan(T17 * (22 / 7) / 180) * W5),(W * CG%) - A2,G + L + W + L + W - N6 - (Tan(T17 * (22 / 7) / 180) * W5),(W * CG%) - A2,,Cut
+302,3,A,G + L + W + L + W - N6 - (Tan(T17 * (22 / 7) / 180) * W5),(W * CG%) - A2,G + L + W + L + W - CTBK,(W * CG%) - S6,,Cut
+303,3,A,G + L + W + L + W - CTBK,(W * CG%) - S6,G + L + W + L + W - CTBK,(W * CG%),,Cut
+304,3,A,G + L + W + L + N6,(W * CG%),G + L + W + L + W - CTBK,(W * CG%),,Crease
+305,3,A,0,(W * CG%) - BMG,0,(W * CG%) - BMG - BM,,Registration
+306,3,A,G,0,G,BM,,Registration
+307,3,A,G + L,0,G + L,BM,,Registration
+308,3,A,G + L + N6,0,G + L + N6,BM,,Registration
+309,3,A,G + L + W - N6,0,G + L + W - N6,BM,,Registration
+310,3,A,G + L + W,0,G + L + W,BM,,Registration
+311,3,A,G + L + W + L,0,G + L + W + L,BM,,Registration
+312,3,A,G + L + W + L + N6,0,G + L + W + L + N6,BM,,Registration
+313,3,A,G + L + W + L + W - CTBK,0,G + L + W + L + W - CTBK,BM,,Registration
+314,3,A,G - BMG,(W * CG%) - X4,G - BMG - BM,(W * CG%) - X4,,Registration
+315,3,A,G - BMG,(W * CG%),G - BMG - BM,(W * CG%),,Registration
+316,3,A,G + L + W + L + W - CTBK + BMG,(W * CG%) - X4,G + L + W + L + W - CTBK + BMG + BM,(W * CG%) - X4,,Registration
+317,3,A,G + L + W + L + W - CTBK + BMG,(W * CG%),G + L + W + L + W - CTBK + BMG + BM,(W * CG%),,Registration
+318,3,A,0,(W * CG%) + D + BMG,0,(W * CG%) + D + BMG + BM,,Registration
+319,3,A,G,(W * CG%) + D  + (W * CG%),G,(W * CG%) + D  + (W * CG%) - BM,,Registration
+320,3,A,G + L,(W * CG%) + D  + (W * CG%),G + L,(W * CG%) + D  + (W * CG%) - BM,,Registration
+321,3,A,G + L + N6,(W * CG%) + D  + (W * CG%),G + L + N6,(W * CG%) + D  + (W * CG%) - BM,,Registration
+322,3,A,G + L + W - N6,(W * CG%) + D  + (W * CG%),G + L + W - N6,(W * CG%) + D  + (W * CG%) - BM,,Registration
+323,3,A,G + L + W,(W * CG%) + D  + (W * CG%),G + L + W,(W * CG%) + D  + (W * CG%) - BM,,Registration
+324,3,A,G + L + W + L,(W * CG%) + D  + (W * CG%),G + L + W + L,(W * CG%) + D  + (W * CG%) - BM,,Registration
+325,3,A,G + L + W + L + N6,(W * CG%) + D  + (W * CG%),G + L + W + L + N6,(W * CG%) + D  + (W * CG%) - BM,,Registration
+326,3,A,G + L + W + L + W - CTBK,(W * CG%) + D  + (W * CG%),G + L + W + L + W - CTBK,(W * CG%) + D  + (W * CG%) - BM,,Registration
+327,3,A,G - BMG,(W * CG%) + D + X4,G - BMG - BM,(W * CG%) + D + X4,,Registration
+328,3,A,G - BMG,(W * CG%) + D,G - BMG - BM,(W * CG%) + D,,Registration
+329,3,A,G + L + W + L + W - CTBK + BMG,(W * CG%) + D + X4,G + L + W + L + W - CTBK + BMG + BM,(W * CG%) + D + X4,,Registration
+330,3,A,G + L + W + L + W - CTBK + BMG,(W * CG%) + D,G + L + W + L + W - CTBK + BMG + BM,(W * CG%) + D,,Registration
+331,4,A,G + 0,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + 0,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+332,4,A,G + L,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),G + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+333,4,A,G + L + W,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+334,4,A,G + L + W + L,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+335,4,A,G + 0,CG + W + D + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L,CG + W + D + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+336,4,A,G + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W - Y1,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+337,4,A,G + L + W + L + Y1,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + W - CTBK,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+338,4,A,G + L + Y1,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+339,4,A,G + L + W,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+340,4,A,G + L + W + L + CTBK,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + W - Y1,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+341,4,A,G + E,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - E,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+342,4,A,G + L + W,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+343,4,A,G + 0,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+344,4,A,(G + L + W + L + W) - CTBK,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + (L + W + L + W) - CTBK,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+345,4,A,G + 0,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),0,CG + W + (Tan(T * (22 / 7) / 180) * G) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+346,4,A,0,CG + W + (Tan(T * (22 / 7) / 180) * G) - (CG + W - (W * LOCK_PERCENTAGE %)),0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+347,4,A,0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)) - (CG + W - (W * LOCK_PERCENTAGE %)),G + 0,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+348,4,A,G + 0,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + 0,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+349,4,A,G + R5,CG + W + D + W - (CG + W - (W * LOCK_PERCENTAGE %)),G + E - R5,CG + W + D + W - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+350,4,A,G + E,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),G + E,CG + W + D + W - R5 - X5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+351,4,A,G + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+352,4,A,G + L - R5,CG + W + D + W - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - E + R5,CG + W + D + W - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+353,4,A,G + L - E,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - E,CG + W + D + W - R5 - X5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+354,4,A,G + Y + C,CG + W + D + W + X4 + C - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - Y - C,CG + W + D + W + X4 + C - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+355,4,A,G + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + N4,CG + W + D + N4 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+356,4,A,G + L + N4,CG + W + D + N4 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + N4,CG + W + D + (X4 + W - X6 + C + OFST) / 2 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+357,4,A,G + L + W,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W - Y1,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+358,4,A,G + L + W - Y1,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W - Y1,CG + W + D + S2 - R13 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+359,4,A,G + L + W - Y1 - (TempB),CG + W + D + S2 - R13 + (TempP) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W - Y1 - N - (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+360,4,A,G + L + W - Y1 - N - (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+361,4,A,G + L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + N,CG + W + D + A - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+362,4,A,G + L + W + L + W - CTBK,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + W - CTBK - N4,CG + W + D + N4 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+363,4,A,G + L + W + L + W - CTBK - N4,CG + W + D + N4 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + W - CTBK - N4,CG + W + D + (X4 + W - X6 + C + OFST) / 2 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+364,4,A,G + L + W + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + Y1,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+365,4,A,G + L + W + L + Y1,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + Y1,CG + W + D + S2 - R13 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+366,4,A,G + L + W + L + Y1 + (TempB),CG + W + D + S2 - R13 + (TempP) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + Y1 + N + (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+367,4,A,G + L + W + L + Y1 + N + (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + Y1 + N + (TempB) + (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+368,4,A,G + L + W + L + Y1 + N + (TempB) + (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + W - CTBK - N,CG + W + D + A - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+369,4,A,G + 0,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + 0,CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+370,4,A,G + 0,0,G+ (W/2)/(TAN(T6 * (22 / 7) / 180)) - R9,0,,Cut
+371,4,A,G+ (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)) + R9,G+ (W/2)/(TAN(T6 * (22 / 7) / 180)),(W * LOCK_PERCENTAGE %) - (W /2),,Cut
+372,4,A,G + L,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L,CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+373,4,A,G + L,0,(G + L)- ((W/2)/(TAN(T6 * (22 / 7) / 180)) - R9),0,,Cut
+374,4,A,(G+ L)- (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)) + R9,(G + L) - (W/2)/(TAN(T6 * (22 / 7) / 180)),(W * LOCK_PERCENTAGE %) - (W /2),,Cut
+375,4,A,G+ (W/2)/(TAN(T6 * (22 / 7) / 180)),(W * LOCK_PERCENTAGE %) - (W /2),(G + L) - (W/2)/(TAN(T6 * (22 / 7) / 180)),(W * LOCK_PERCENTAGE %) - (W /2),,Cut
+376,4,A,G + L + Y1,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + (W/2)/(TAN(T63 * (22 / 7) / 180)) - Y1,(W * LOCK_PERCENTAGE %) - (W/2),,Cut
+377,4,A,G + L + (W/2)/(TAN(T63 * (22 / 7) / 180)) - Y1,0,G + L + W,0,,Cut
+378,4,A,G + L + W,0,G + L + W,(W * LOCK_PERCENTAGE %),,Cut
+379,4,A,G + L + W,(W * LOCK_PERCENTAGE %),G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)),(W * LOCK_PERCENTAGE %) - (W/2),,Cut
+380,4,A,G + L + W + L,(W * LOCK_PERCENTAGE %),G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)),(W * LOCK_PERCENTAGE %) - (W/2),,Cut
+381,4,A,G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)) - R9,0,G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)) + R9,0,,Cut
+382,4,A,G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)),(W * LOCK_PERCENTAGE %) - (W/2),G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)),0+R9,,Cut
+383,4,A,G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)),(W * LOCK_PERCENTAGE %) - (W/2),G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)),0+R9,,Cut
+384,4,A,G + L + W + L + Y1,(W * LOCK_PERCENTAGE %),G + L + W + L + Y1,0,,Cut
+385,4,A,G + L + W + L + W - CTBK,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L +W +L+W-CTBK- (W/2)/(TAN(T63 * (22 / 7) / 180)),(W * LOCK_PERCENTAGE %) - (W/2),,Cut
+386,4,A,G + L +W +L+W-CTBK- (W/2)/(TAN(T63 * (22 / 7) / 180)),0,G + L + W + L + Y1,0,,Cut
+387,4,A,G + L,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + Y1,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+388,4,A,G + L + W + L,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + CTBK,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+389,4,B,G + 0,CG + W + 0,G + 0,CG + W + D,,Crease
+390,4,B,G + L,CG + W + 0,G + L,CG + W + D ,,Crease
+391,4,B,G + L + W,CG + W + 0,G + L + W,CG + W + D,,Crease
+392,4,B,G + L + W + L,CG + W + 0,G + L + W + L,CG + W + D,,Crease
+393,4,B,G + 0,CG + W + D + X4,G + L,CG + W + D + X4,,Crease
+394,4,B,G + L + CTBK,CG + W + D,G + L + W,CG + W + D,,Crease
+395,4,B,G + L + W + L + Y1,CG + W + D,G + L + W + L + W - CTBK,CG + W + D,,Crease
+396,4,B,G + L + Y1,CG + W + 0,G + L + W,CG + W + 0,,Crease
+397,4,B,G + L + W,CG + W + 0,G + L + W + L,CG + W + 0,,Crease
+398,4,B,G + L + W + L,CG + W + 0,G + L + W + L + W - Y1,CG + W + 0,,Crease
+399,4,B,G + L + W + E,CG + W + (-W + R5),G + L + W + L - E,CG + W + (-W + R5),,Crease
+400,4,B,G + L + W,CG + W + D,G + L + W + L,CG + W + D,,Crease
+401,4,B,G + 0,CG + W + 0,G + L,CG + W + 0,,Cut
+402,4,B,(G + L + W + L + W) - CTBK,CG + W + 0,G + (L + W + L + W) - CTBK,CG + W + D,,Cut
+403,4,B,G + 0,CG + W + 0,0,CG + W + (Tan(T * (22 / 7) / 180) * G),,Cut
+404,4,B,0,CG + W + (Tan(T * (22 / 7) / 180) * G),0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)),,Cut
+405,4,B,0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)),G + 0,CG + W + D,,Cut
+406,4,B,G + L + W,CG + W + 0,G + L + W,CG + W -W + R5,,Cut
+407,4,B,G + L + W + R5,CG + W -W,G + L + W + E - R5,CG + W -W,,Cut
+408,4,B,G + L + W + E,CG + W -W + R5,G + L + W + E,CG + W -W + R5 + X5,,Cut
+409,4,B,G + L + W + L,CG + W + 0,G + L + W + L,CG + W -W + R5,,Cut
+410,4,B,G + L + W + L - R5,CG + W -W,G + L + W + L - E + R5,CG + W -W,,Cut
+411,4,B,G + L + W + L - E,CG + W -W + R5,G + L + W + L - E,CG + W -W + R5 + X5,,Cut
+412,4,B,G + L + W + Y + C,CG + W + (-W - X4 - C),G + L + W + L - Y - C,CG + W -W - X4 - C,,Cut
+413,4,B,G + L + W,CG + W + 0,G + L + W - N4,CG+W-N4,,Cut
+414,4,B,G + L + W - N4,CG+W-N4,G + L + W - N4,CG + W -(X4 + W - X6 + C + OFST) / 2,,Cut
+415,4,B,G + L,CG + W + 0,G + L + Y1,CG + W + 0,,Cut
+416,4,B,G + L + Y1,CG + W + 0,G + L + Y1,CG + W + 0 - S2 + R13,,Cut
+417,4,B,G + L + Y1 + (TempB),CG + W + 0 - S2 + R13 - (TempP),G + L + Y1 + N + (TempB),CG + W + 0 - S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),,Cut
+418,4,B,G + L + Y1 + N + (TempB),CG + W + 0 - S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),G + L + Y1 + N + (TempB) + (((0 + A) - (0 + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,,Cut
+419,4,B,G + L + Y1 + N + (TempB) + (((0 + A) - (0 + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,G + L + W - N,CG + W -A,,Cut
+420,4,B,G + L + W + L,CG + W + 0,G + L + W + L + N4,CG + W + 0 - N4,,Cut
+421,4,B,G + L + W + L + N4,CG + W + 0 - N4,G + L + W + L + N4,CG + W + 0 - (X4 + W - X6 + C + OFST) / 2,,Cut
+422,4,B,G + L + W + L + W - CTBK,CG + W + 0,G + L + W + L + W - Y1,CG + W + 0,,Cut
+423,4,B,G + L + W + L + W - Y1,CG + W + 0,G + L + W + L + W - Y1,CG + W + 0 - S2 + R13,,Cut
+424,4,B,G + L + W + L + W - Y1 - (TempB),CG + W + 0 - S2 + R13 - (TempP),G + L + W + L + W - Y1 - N - (TempB),CG + W -S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),,Cut
+425,4,B,G + L + W + L + W - Y1 - N - (TempB),CG + W -S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),G + L + W + L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,,Cut
+426,4,B,G + L + W + L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,G + L + W + L + N,CG + W -A,,Cut
+427,4,B,G + 0,CG + W + D,G + 0,CG + W + D + (W * LOCK_PERCENTAGE %),,Cut
+428,4,B,G + 0,CG + W + D + (W * LOCK_PERCENTAGE %),G+ (W/2)/(TAN(T6 * (22 / 7) / 180)) - R9,CG + W + D + (W * LOCK_PERCENTAGE %),,Cut
+429,4,B,G+ (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W * LOCK_PERCENTAGE %) -R9,G+ (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W /2),,Cut
+430,4,B,G + L,CG + W + D,G + L,CG + W + D +(W * LOCK_PERCENTAGE %),,Cut
+431,4,B,G + L,CG + W + D + (W * LOCK_PERCENTAGE %),(G + L)- ((W/2)/(TAN(T6 * (22 / 7) / 180)) - R9),CG + W + D + (W * LOCK_PERCENTAGE %),,Cut
+432,4,B,(G+ L)- (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W * LOCK_PERCENTAGE %) - R9,(G + L) - (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W /2),,Cut
+433,4,B,G+ (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W /2),(G + L) - (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W /2),,Cut
+434,4,B,G + L + Y1,CG + W + D ,G + L + (W/2)/(TAN(T63 * (22 / 7) / 180)) - Y1,CG + W + D + (W/2),,Cut
+435,4,B,G + L + (W/2)/(TAN(T63 * (22 / 7) / 180)) - Y1,CG + W + D + (W * LOCK_PERCENTAGE %),G + L + W,CG + W + D + (W * LOCK_PERCENTAGE %),,Cut
+436,4,B,G + L + W,CG + W + D + (W * LOCK_PERCENTAGE %),G + L + W,CG + W + D,,Cut
+437,4,B,G + L + W,CG + W + D,G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W/2),,Cut
+438,4,B,G + L + W + L,CG + W + D,G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W/2),,Cut
+439,4,B,G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)) - R9,CG + W + D + (W * LOCK_PERCENTAGE %),G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)) + R9,CG + W + D + (W * LOCK_PERCENTAGE %),,Cut
+440,4,B,G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W/2),G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W * LOCK_PERCENTAGE %) - R9,,Cut
+441,4,B,G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W/2),G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W * LOCK_PERCENTAGE %) - R9,,Cut
+442,4,B,G + L + W + L + Y1,CG + W + D + (W * LOCK_PERCENTAGE %),G + L + W + L + Y1,CG + W + D,,Cut
+443,4,B,G + L + W + L + W - CTBK,CG + W + D,G + L +W +L+W-CTBK- (W/2)/(TAN(T63 * (22 / 7) / 180)),CG + W + D + (W/2),,Cut
+444,4,B,G + L +W +L+W-CTBK- (W/2)/(TAN(T63 * (22 / 7) / 180)),CG + W + D + (W * LOCK_PERCENTAGE %),G + L + W + L + Y1,CG + W + D + (W * LOCK_PERCENTAGE %),,Cut
+445,4,B,G + L,CG + W + D,G + L + Y1,CG + W + D ,,Cut
+446,4,B,G + L + W + L,CG + W + D ,G + L + W + L + CTBK,CG + W + D ,,Cut
+447,4,A,0,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG,0,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG - BM,,Registration
+448,4,A,G,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG,G,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG - BM,,Registration
+449,4,A,G + L,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG,G + L,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG - BM,,Registration
+450,4,A,G + L + W,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG,G + L + W,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG - BM,,Registration
+451,4,A,G + L + W + L,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG,G + L + W + L,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG - BM,,Registration
+452,4,A,G+L+W+L+W-CTBK,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG,G+ L+W+L+W-CTBK,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG - BM,,Registration
+453,4,A,0,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG,0,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG + BM,,Registration
+454,4,A,G + L + W,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG,G + L + W,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG + BM,,Registration
+455,4,A,G + L + W + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG,G + L + W + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG + BM,,Registration
+456,4,A,G+L+W+L+W-CTBK,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG,G+L+W+L+W-CTBK,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG + BM,,Registration
+457,4,A,G-BMG,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G-BMG-BM,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),,Registration
+458,4,A,G+L+W+L+W-CTBK+BMG,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G+L+W+L+W-CTBK+BMG + BM,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),,Registration
+459,4,A,G-BMG,CG + W + D + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),G-BMG-BM,CG + W + D + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),,Registration
+460,4,A,G+L+W+L+W-CTBK+BMG,CG + W + D + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),G+L+W+L+W-CTBK+BMG + BM,CG + W + D + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),,Registration
+461,4,A,G - BMG,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),G-BMG-BM,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Registration
+462,4,A,G + L + BMG,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + BMG + BM,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Registration
+463,4,B,0,CG + W + D + BMG,0,CG + W + D + BMG + BM,,Registration
+464,4,B,G,CG + W + D + BMG,G,CG + W + D + BMG + BM,,Registration
+465,4,B,G + L,CG + W + D + BMG,G + L,CG + W + D + BMG + BM,,Registration
+466,4,B,G + L + W,CG + W + D + BMG,G + L + W,CG + W + D + BMG + BM,,Registration
+467,4,B,G + L + W + L,CG + W + D + BMG,G + L + W + L,CG + W + D + BMG + BM,,Registration
+468,4,B,G+L+W+L+W-CTBK,CG + W + D + BMG,G+ L+W+L+W-CTBK,CG + W + D + BMG + BM,,Registration
+469,4,B,0,CG + W + 0 - BMG,0,CG + W + 0 - BMG - BM,,Registration
+470,4,B,G,CG + W + 0 - BMG,G,CG + W + 0 - BMG - BM,,Registration
+471,4,B,G + L,CG + W + 0 - BMG,G + L,CG + W + 0 - BMG - BM,,Registration
+472,4,B,G+L+W+L+W-CTBK,CG + W + 0 - BMG,G+L+W+L+W-CTBK,CG + W + 0 - BMG - BM,,Registration
+473,4,B,G-BMG,CG + W + D + X4,G-BMG-BM,CG + W + D + X4,,Registration
+474,4,B,G+L+W+L+W-CTBK+BMG,CG + W + D + X4,G+L+W+L+W-CTBK+BMG + BM,CG + W + D + X4,,Registration
+475,4,B,G-BMG,CG + W + 0,G-BMG-BM,CG + W + 0,,Registration
+476,4,B,G+L+W+L+W-CTBK+BMG,CG + W + 0,G+L+W+L+W-CTBK+BMG + BM,CG + W + 0,,Registration
+477,4,B,G + L + W - BMG,CG + W + (-W + R5),G + L + W - BMG - BM,CG + W + (-W + R5),,Registration
+478,4,B,G + L + W + L + BMG,CG + W + (-W + R5),G + L + W + L + BMG + BM,CG + W + (-W + R5),,Registration
+479,5,A,0,0 + R,0,H - R,,Cut
+480,5,A,0+R,H,L-R,H,,Cut
+481,5,A,L,H-R,L,0+R,,Cut
+482,5,A,L-R,0,0+R,0,,Cut
+483,6,A,G + 0,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + 0,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+484,6,A,G + L,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),G + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+485,6,A,G + L + W,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+486,6,A,G + L + W + L,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+487,6,A,G + 0,CG + W + D + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L,CG + W + D + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+488,6,A,G + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W - Y1,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+489,6,A,G + L + W + L + Y1,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + W - CTBK,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+490,6,A,G + L + Y1,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+491,6,A,G + L + W,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+492,6,A,G + L + W + L + CTBK,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + W - Y1,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+493,6,A,G + E,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - E,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+494,6,A,G + L + W,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+495,6,A,G + 0,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),,Crease
+496,6,A,(G + L + W + L + W) - CTBK,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + (L + W + L + W) - CTBK,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+497,6,A,G + 0,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),0,CG + W + (Tan(T * (22 / 7) / 180) * G) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+498,6,A,0,CG + W + (Tan(T * (22 / 7) / 180) * G) - (CG + W - (W * LOCK_PERCENTAGE %)),0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+499,6,A,0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)) - (CG + W - (W * LOCK_PERCENTAGE %)),G + 0,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+500,6,A,G + 0,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + 0,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+501,6,A,G + R5,CG + W + D + W - (CG + W - (W * LOCK_PERCENTAGE %)),G + E - R5,CG + W + D + W - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+502,6,A,G + E,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),G + E,CG + W + D + W - R5 - X5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+503,6,A,G + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+504,6,A,G + L - R5,CG + W + D + W - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - E + R5,CG + W + D + W - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+505,6,A,G + L - E,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - E,CG + W + D + W - R5 - X5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+506,6,A,G + Y + C,CG + W + D + W + X4 + C - (CG + W - (W * LOCK_PERCENTAGE %)),G + L - Y - C,CG + W + D + W + X4 + C - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+507,6,A,G + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + N4,CG + W + D + N4 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+508,6,A,G + L + N4,CG + W + D + N4 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + N4,CG + W + D + (X4 + W - X6 + C + OFST) / 2 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+509,6,A,G + L + W,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W - Y1,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+510,6,A,G + L + W - Y1,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W - Y1,CG + W + D + S2 - R13 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+511,6,A,G + L + W - Y1 - (TempB),CG + W + D + S2 - R13 + (TempP) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W - Y1 - N - (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+512,6,A,G + L + W - Y1 - N - (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+513,6,A,G + L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + N,CG + W + D + A - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+514,6,A,G + L + W + L + W - CTBK,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + W - CTBK - N4,CG + W + D + N4 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+515,6,A,G + L + W + L + W - CTBK - N4,CG + W + D + N4 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + W - CTBK - N4,CG + W + D + (X4 + W - X6 + C + OFST) / 2 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+516,6,A,G + L + W + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + Y1,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+517,6,A,G + L + W + L + Y1,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + Y1,CG + W + D + S2 - R13 - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+518,6,A,G + L + W + L + Y1 + (TempB),CG + W + D + S2 - R13 + (TempP) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + Y1 + N + (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+519,6,A,G + L + W + L + Y1 + N + (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)) - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + Y1 + N + (TempB) + (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+520,6,A,G + L + W + L + Y1 + N + (TempB) + (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + W - CTBK - N,CG + W + D + A - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+521,6,A,G + 0,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + 0,CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+522,6,A,G + 0,0,G+ (W/2)/(TAN(T6 * (22 / 7) / 180)) - R9,0,,Cut
+523,6,A,G+ (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)) + R9,G+ (W/2)/(TAN(T6 * (22 / 7) / 180)),(W * LOCK_PERCENTAGE %) - (W /2),,Cut
+524,6,A,G + L,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L,CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+525,6,A,G + L,0,(G + L)- ((W/2)/(TAN(T6 * (22 / 7) / 180)) - R9),0,,Cut
+526,6,A,(G+ L)- (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W - (W * LOCK_PERCENTAGE %) - (CG + W - (W * LOCK_PERCENTAGE %)) + R9,(G + L) - (W/2)/(TAN(T6 * (22 / 7) / 180)),(W * LOCK_PERCENTAGE %) - (W /2),,Cut
+527,6,A,G+ (W/2)/(TAN(T6 * (22 / 7) / 180)),(W * LOCK_PERCENTAGE %) - (W /2),(G + L) - (W/2)/(TAN(T6 * (22 / 7) / 180)),(W * LOCK_PERCENTAGE %) - (W /2),,Cut
+528,6,A,G + L + Y1,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + (W/2) + Y1 + X6,(W * LOCK_PERCENTAGE %) - (W/2)/(TAN(T6 * (22 / 7) / 180)),,Cut
+529,6,A,G + L + (W/2) + Y1 + X6,(W * LOCK_PERCENTAGE %) - (L/2 - CTBK),G + L + W,(W * LOCK_PERCENTAGE %) - (L/2 - CTBK),,Cut
+530,6,A,G + L + W,(W * LOCK_PERCENTAGE %) - (L/2 - CTBK),G + L + W,(W * LOCK_PERCENTAGE %),,Cut
+531,6,A,G + L + W,(W * LOCK_PERCENTAGE %),G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)),(W * LOCK_PERCENTAGE %) - (W/2),,Cut
+532,6,A,G + L + W + L,(W * LOCK_PERCENTAGE %),G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)),(W * LOCK_PERCENTAGE %) - (W/2),,Cut
+533,6,A,G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)) - R9,0,G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)) + R9,0,,Cut
+534,6,A,G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)),(W * LOCK_PERCENTAGE %) - (W/2),G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)),0+R9,,Cut
+535,6,A,G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)),(W * LOCK_PERCENTAGE %) - (W/2),G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)),0+R9,,Cut
+536,6,A,G + L + W + L + Y1,(W * LOCK_PERCENTAGE %),G + L + W + L + Y1,(W * LOCK_PERCENTAGE %) - (L/2 - CTBK),,Cut
+537,6,A,G + L + W + L + W - CTBK,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W +L+W-CTBK- (W/2) - X6,(W * LOCK_PERCENTAGE %) - (W/2)/(TAN(T6 * (22 / 7) / 180)),,Cut
+538,6,A,G + L + W +L+W-CTBK- (W/2) - X6,(W * LOCK_PERCENTAGE %) - (L/2 - CTBK),G + L + W + L + Y1,(W * LOCK_PERCENTAGE %) - (L/2 - CTBK),,Cut
+539,6,A,G + L,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + Y1,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+540,6,A,G + L + W + L,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + W + L + CTBK,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),,Cut
+541,6,B,G + 0,CG + W + 0,G + 0,CG + W + D,,Crease
+542,6,B,G + L,CG + W + 0,G + L,CG + W + D ,,Crease
+543,6,B,G + L + W,CG + W + 0,G + L + W,CG + W + D,,Crease
+544,6,B,G + L + W + L,CG + W + 0,G + L + W + L,CG + W + D,,Crease
+545,6,B,G + 0,CG + W + D + X4,G + L,CG + W + D + X4,,Crease
+546,6,B,G + L + CTBK,CG + W + D,G + L + W,CG + W + D,,Crease
+547,6,B,G + L + W + L + Y1,CG + W + D,G + L + W + L + W - CTBK,CG + W + D,,Crease
+548,6,B,G + L + Y1,CG + W + 0,G + L + W,CG + W + 0,,Crease
+549,6,B,G + L + W,CG + W + 0,G + L + W + L,CG + W + 0,,Crease
+550,6,B,G + L + W + L,CG + W + 0,G + L + W + L + W - Y1,CG + W + 0,,Crease
+551,6,B,G + L + W + E,CG + W + (-W + R5),G + L + W + L - E,CG + W + (-W + R5),,Crease
+552,6,B,G + L + W,CG + W + D,G + L + W + L,CG + W + D,,Crease
+553,6,B,G + 0,CG + W + 0,G + L,CG + W + 0,,Cut
+554,6,B,(G + L + W + L + W) - CTBK,CG + W + 0,G + (L + W + L + W) - CTBK,CG + W + D,,Cut
+555,6,B,G + 0,CG + W + 0,0,CG + W + (Tan(T * (22 / 7) / 180) * G),,Cut
+556,6,B,0,CG + W + (Tan(T * (22 / 7) / 180) * G),0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)),,Cut
+557,6,B,0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)),G + 0,CG + W + D,,Cut
+558,6,B,G + L + W,CG + W + 0,G + L + W,CG + W -W + R5,,Cut
+559,6,B,G + L + W + R5,CG + W -W,G + L + W + E - R5,CG + W -W,,Cut
+560,6,B,G + L + W + E,CG + W -W + R5,G + L + W + E,CG + W -W + R5 + X5,,Cut
+561,6,B,G + L + W + L,CG + W + 0,G + L + W + L,CG + W -W + R5,,Cut
+562,6,B,G + L + W + L - R5,CG + W -W,G + L + W + L - E + R5,CG + W -W,,Cut
+563,6,B,G + L + W + L - E,CG + W -W + R5,G + L + W + L - E,CG + W -W + R5 + X5,,Cut
+564,6,B,G + L + W + Y + C,CG + W + (-W - X4 - C),G + L + W + L - Y - C,CG + W -W - X4 - C,,Cut
+565,6,B,G + L + W,CG + W + 0,G + L + W - N4,CG+W-N4,,Cut
+566,6,B,G + L + W - N4,CG+W-N4,G + L + W - N4,CG + W -(X4 + W - X6 + C + OFST) / 2,,Cut
+567,6,B,G + L,CG + W + 0,G + L + Y1,CG + W + 0,,Cut
+568,6,B,G + L + Y1,CG + W + 0,G + L + Y1,CG + W + 0 - S2 + R13,,Cut
+569,6,B,G + L + Y1 + (TempB),CG + W + 0 - S2 + R13 - (TempP),G + L + Y1 + N + (TempB),CG + W + 0 - S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),,Cut
+570,6,B,G + L + Y1 + N + (TempB),CG + W + 0 - S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),G + L + Y1 + N + (TempB) + (((0 + A) - (0 + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,,Cut
+571,6,B,G + L + Y1 + N + (TempB) + (((0 + A) - (0 + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,G + L + W - N,CG + W -A,,Cut
+572,6,B,G + L + W + L,CG + W + 0,G + L + W + L + N4,CG + W + 0 - N4,,Cut
+573,6,B,G + L + W + L + N4,CG + W + 0 - N4,G + L + W + L + N4,CG + W + 0 - (X4 + W - X6 + C + OFST) / 2,,Cut
+574,6,B,G + L + W + L + W - CTBK,CG + W + 0,G + L + W + L + W - Y1,CG + W + 0,,Cut
+575,6,B,G + L + W + L + W - Y1,CG + W + 0,G + L + W + L + W - Y1,CG + W + 0 - S2 + R13,,Cut
+576,6,B,G + L + W + L + W - Y1 - (TempB),CG + W + 0 - S2 + R13 - (TempP),G + L + W + L + W - Y1 - N - (TempB),CG + W -S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),,Cut
+577,6,B,G + L + W + L + W - Y1 - N - (TempB),CG + W -S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),G + L + W + L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,,Cut
+578,6,B,G + L + W + L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,G + L + W + L + N,CG + W -A,,Cut
+579,6,B,G + 0,CG + W + D,G + 0,CG + W + D + (W * LOCK_PERCENTAGE %),,Cut
+580,6,B,G + 0,CG + W + D + (W * LOCK_PERCENTAGE %),G+ (W/2)/(TAN(T6 * (22 / 7) / 180)) - R9,CG + W + D + (W * LOCK_PERCENTAGE %),,Cut
+581,6,B,G+ (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W * LOCK_PERCENTAGE %) -R9,G+ (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W /2),,Cut
+582,6,B,G + L,CG + W + D,G + L,CG + W + D +(W * LOCK_PERCENTAGE %),,Cut
+583,6,B,G + L,CG + W + D + (W * LOCK_PERCENTAGE %),(G + L)- ((W/2)/(TAN(T6 * (22 / 7) / 180)) - R9),CG + W + D + (W * LOCK_PERCENTAGE %),,Cut
+584,6,B,(G+ L)- (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W * LOCK_PERCENTAGE %) - R9,(G + L) - (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W /2),,Cut
+585,6,B,G+ (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W /2),(G + L) - (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W /2),,Cut
+586,6,B,G + L + Y1,CG + W + D ,G + L + (W/2) + Y1 + X6,CG + W + D + ((W/2)/(TAN(T6 * (22 / 7) / 180))),,Cut
+587,6,B,G + L + (W/2) + Y1 + X6,CG + W + D +  (L/2 - CTBK),G + L + W,CG + W + D +  (L/2 - CTBK),,Cut
+588,6,B,G + L + W,CG + W + D +  (L/2 - CTBK),G + L + W,CG + W + D,,Cut
+589,6,B,G + L + W,CG + W + D,G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W/2),,Cut
+590,6,B,G + L + W + L,CG + W + D,G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W/2),,Cut
+591,6,B,G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)) - R9,CG + W + D + (W * LOCK_PERCENTAGE %),G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)) + R9,CG + W + D + (W * LOCK_PERCENTAGE %),,Cut
+592,6,B,G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W/2),G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W * LOCK_PERCENTAGE %) - R9,,Cut
+593,6,B,G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W/2),G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)),CG + W + D + (W * LOCK_PERCENTAGE %) - R9,,Cut
+594,6,B,G + L + W + L + Y1,CG + W + D +  (L/2 - CTBK),G + L + W + L + Y1,CG + W + D,,Cut
+595,6,B,G + L + W + L + W - CTBK,CG + W + D,G + L +W +L+W-CTBK- (W/2)/(TAN(T63 * (22 / 7) / 180)),CG + W + D + (W/2)/(TAN(T6 * (22 / 7) / 180)),,Cut
+596,6,B,G + L +W +L+W-CTBK- (W/2)/(TAN(T63 * (22 / 7) / 180)),CG + W + D +  (L/2 - CTBK),G + L + W + L + Y1,CG + W + D +  (L/2 - CTBK),,Cut
+597,6,B,G + L,CG + W + D,G + L + Y1,CG + W + D ,,Cut
+598,6,B,G + L + W + L,CG + W + D ,G + L + W + L + Y1,CG + W + D ,,Cut
+599,6,A,0,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG,0,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG - BM,,Registration
+600,6,A,G,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG,G,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG - BM,,Registration
+601,6,A,G + L,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG,G + L,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG - BM,,Registration
+602,6,A,G + L + W,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG,G + L + W,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG - BM,,Registration
+603,6,A,G + L + W + L,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG,G + L + W + L,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG - BM,,Registration
+604,6,A,G+L+W+L+W-CTBK,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG,G+ L+W+L+W-CTBK,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)) - BMG - BM,,Registration
+605,6,A,0,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG,0,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG + BM,,Registration
+606,6,A,G + L + W,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG,G + L + W,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG + BM,,Registration
+607,6,A,G + L + W + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG,G + L + W + L,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG + BM,,Registration
+608,6,A,G+L+W+L+W-CTBK,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG,G+L+W+L+W-CTBK,CG + W + D - (CG + W - (W * LOCK_PERCENTAGE %)) + BMG + BM,,Registration
+609,6,A,G-BMG,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G-BMG-BM,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),,Registration
+610,6,A,G+L+W+L+W-CTBK+BMG,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),G+L+W+L+W-CTBK+BMG + BM,CG + W + 0 - (CG + W - (W * LOCK_PERCENTAGE %)),,Registration
+611,6,A,G-BMG,CG + W + D + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),G-BMG-BM,CG + W + D + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),,Registration
+612,6,A,G+L+W+L+W-CTBK+BMG,CG + W + D + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),G+L+W+L+W-CTBK+BMG + BM,CG + W + D + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),,Registration
+613,6,A,G - BMG,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),G-BMG-BM,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Registration
+614,6,A,G + L + BMG,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),G + L + BMG + BM,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),,Registration
+615,6,B,0,CG + W + D + BMG,0,CG + W + D + BMG + BM,,Registration
+616,6,B,G,CG + W + D + BMG,G,CG + W + D + BMG + BM,,Registration
+617,6,B,G + L,CG + W + D + BMG,G + L,CG + W + D + BMG + BM,,Registration
+618,6,B,G + L + W,CG + W + D + BMG,G + L + W,CG + W + D + BMG + BM,,Registration
+619,6,B,G + L + W + L,CG + W + D + BMG,G + L + W + L,CG + W + D + BMG + BM,,Registration
+620,6,B,G+L+W+L+W-CTBK,CG + W + D + BMG,G+ L+W+L+W-CTBK,CG + W + D + BMG + BM,,Registration
+621,6,B,0,CG + W + 0 - BMG,0,CG + W + 0 - BMG - BM,,Registration
+622,6,B,G,CG + W + 0 - BMG,G,CG + W + 0 - BMG - BM,,Registration
+623,6,B,G + L,CG + W + 0 - BMG,G + L,CG + W + 0 - BMG - BM,,Registration
+624,6,B,G+L+W+L+W-CTBK,CG + W + 0 - BMG,G+L+W+L+W-CTBK,CG + W + 0 - BMG - BM,,Registration
+625,6,B,G-BMG,CG + W + D + X4,G-BMG-BM,CG + W + D + X4,,Registration
+626,6,B,G+L+W+L+W-CTBK+BMG,CG + W + D + X4,G+L+W+L+W-CTBK+BMG + BM,CG + W + D + X4,,Registration
+627,6,B,G-BMG,CG + W + 0,G-BMG-BM,CG + W + 0,,Registration
+628,6,B,G+L+W+L+W-CTBK+BMG,CG + W + 0,G+L+W+L+W-CTBK+BMG + BM,CG + W + 0,,Registration
+629,6,B,G + L + W - BMG,CG + W + (-W + R5),G + L + W - BMG - BM,CG + W + (-W + R5),,Registration
+630,6,B,G + L + W + L + BMG,CG + W + (-W + R5),G + L + W + L + BMG + BM,CG + W + (-W + R5),,Registration
+631,7,A,G + 0,CG + W + 0,G + 0,CG + W + D,,Crease
+632,7,A,G + L,CG + W + 0,G + L,CG + W + D,,Crease
+633,7,A,G + L + W,CG + W + 0,G + L + W,CG + W + D,,Crease
+634,7,A,G + L + W + L,CG + W + 0,G + L + W + L,CG + W + D,,Crease
+635,7,A,G + 0,CG + W + D + X4,G + L,CG + W + D + X4,,Crease
+636,7,A,G + L,CG + W + D,G + L + W - Y1,CG + W + D,,Crease
+637,7,A,G + L + W + L + Y1,CG + W + D,G + L + W + L + W - CTBK,CG + W + D,,Crease
+638,7,A,G + L,CG + W + 0,G + L + W - Y1,CG + W + 0,,Crease
+639,7,A,G + L + W,CG + W + 0,G + L + W + L,CG + W + 0,,Cut
+640,7,A,G + L + W + L + Y1,CG + W + 0,G + L + W + L + W - CTBK,CG + W + 0,,Crease
+641,7,A,G + E,CG + W + D + W - R5,G + L - E,CG + W + D + W - R5,,Crease
+642,7,A,G + E,CG + W + (-W + R5),G + L - E,CG + W + (-W + R5),,Crease
+643,7,A,G + L + W,CG + W + D,G + L + W + L,CG + W + D,,Cut
+644,7,A,G + 0,CG + W + 0,G + L,CG + W + 0,,Crease
+645,7,A,(G + L + W + L + W) - CTBK,CG + W + 0,G + (L + W + L + W) - CTBK,CG + W + D,,Cut
+646,7,A,G + 0,CG + W + 0,0,CG + W + (Tan(T * (22 / 7) / 180) * G),,Cut
+647,7,A,0,CG + W + (Tan(T * (22 / 7) / 180) * G),0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)),,Cut
+648,7,A,0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)),G + 0,CG + W + D,,Cut
+649,7,A,G + 0,CG + W + D,G + 0,CG + W + D + W - R5,,Cut
+650,7,A,G + R5,CG + W + D + W,G + E - R5,CG + W + D + W,,Cut
+651,7,A,G + E,CG + W + D + W - R5,G + E,CG + W + D + W - R5 - X5,,Cut
+652,7,A,G + L,CG + W + D,G + L,CG + W + D + W - R5,,Cut
+653,7,A,G + L - R5,CG + W + D + W,G + L - E + R5,CG + W + D + W,,Cut
+654,7,A,G + L - E,CG + W + D + W - R5,G + L - E,CG + W + D + W - R5 - X5,,Cut
+655,7,A,G + Y + C,CG + W + D + W + X4 + C,G + L - Y - C,CG + W + D + W + X4 + C,,Cut
+656,7,A,G + 0,CG + W + 0,G + 0,CG + W -W + R5,,Cut
+657,7,A,G + R5,CG + W -W,G + E - R5,CG + W -W,,Cut
+658,7,A,G + E,CG + W -W + R5,G + E,CG + W -W + R5 + X5,,Cut
+659,7,A,G + L,CG + W + 0,G + L,CG + W -W + R5,,Cut
+660,7,A,G + L - R5,CG + W -W,G + L - E + R5,CG + W -W,,Cut
+661,7,A,G + L - E,CG + W -W + R5,G + L - E,CG + W -W + R5 + X5,,Cut
+662,7,A,G + Y + C,CG + W + (-W - X4 - C),G + L - Y - C,CG + W -W - X4 - C,,Cut
+663,7,A,G + L,CG + W + D,G + L + N4,CG + W + D + N4,,Cut
+664,7,A,G + L + N4,CG + W + D + N4,G + L + N4,CG + W + D + (X4 + W - X6 + C + OFST) / 2,,Cut
+665,7,A,G + L + W,CG + W + D,G + L + W - Y1,CG + W + D,,Cut
+666,7,A,G + L + W - Y1,CG + W + D,G + L + W - Y1,CG + W + D + S2 - R13,,Cut
+667,7,A,G + L + W - Y1 - (TempB),CG + W + D + S2 - R13 + (TempP),G + L + W - Y1 - N - (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)),,Cut
+668,7,A,G + L + W - Y1 - N - (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)),G + L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A,,Cut
+669,7,A,G + L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A,G + L + N,CG + W + D + A,,Cut
+670,7,A,G + L + W + L + W - CTBK,CG + W + D,G + L + W + L + W - CTBK - N4,CG + W + D + N4,,Cut
+671,7,A,G + L + W + L + W - CTBK - N4,CG + W + D + N4,G + L + W + L + W - CTBK - N4,CG + W + D + (X4 + W - X6 + C + OFST) / 2,,Cut
+672,7,A,G + L + W + L,CG + W + D,G + L + W + L + Y1,CG + W + D,,Cut
+673,7,A,G + L + W + L + Y1,CG + W + D,G + L + W + L + Y1,CG + W + D + S2 - R13,,Cut
+674,7,A,G + L + W + L + Y1 + (TempB),CG + W + D + S2 - R13 + (TempP),G + L + W + L + Y1 + N + (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)),,Cut
+675,7,A,G + L + W + L + Y1 + N + (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)),G + L + W + L + Y1 + N + (TempB) + (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A,,Cut
+676,7,A,G + L + W + L + Y1 + N + (TempB) + (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A,G + L + W + L + W - CTBK - N,CG + W + D + A,,Cut
+677,7,A,G + L + W + L + W - CTBK,CG + W + 0,G + L + W + L + W - CTBK - N4,CG+W-N4,,Cut
+678,7,A,G + L + W + L + W - CTBK - N4,CG+W-N4,G + L + W + L + W - CTBK - N4,CG + W -(X4 + W - X6 + C + OFST) / 2,,Cut
+679,7,A,G + L + W + L,CG + W + 0,G + L + W + L + Y1,CG + W + 0,,Cut
+680,7,A,G + L + W + L + Y1,CG + W + 0,G + L + W + L + Y1,CG + W + 0 - S2 + R13,,Cut
+681,7,A,G + L + W + L + Y1 + (TempB),CG + W + 0 - S2 + R13 - (TempP),G + L + W + L + Y1 + N + (TempB),CG + W + 0 - S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),,Cut
+682,7,A,G + L + W + L + Y1 + N + (TempB),CG + W + 0 - S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),G + L + W + L + Y1 + N + (TempB) + (((0 + A) - (0 + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,,Cut
+683,7,A,G + L + W + L + Y1 + N + (TempB) + (((0 + A) - (0 + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,G + L + W + L + W - CTBK - N4,CG + W -A,,Cut
+684,7,A,G + L,CG + W + 0,G + L + N4,CG + W + 0 - N4,,Cut
+685,7,A,G + L + N4,CG + W + 0 - N4,G + L + N4,CG + W + 0 - (X4 + W - X6 + C + OFST) / 2,,Cut
+686,7,A,G + L + W,CG + W + 0,G + L + W - Y1,CG + W + 0,,Cut
+687,7,A,G + L + W - Y1,CG + W + 0,G + L + W - Y1,CG + W + 0 - S2 + R13,,Cut
+688,7,A,G + L + W - Y1 - (TempB),CG + W + 0 - S2 + R13 - (TempP),G + L + W- Y1 - N - (TempB),CG + W -S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),,Cut
+689,7,A,G + L + W- Y1 - N - (TempB),CG + W -S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),G + L + W- Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,,Cut
+690,7,A,G + L + W- Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,G + L + N,CG + W -A,,Cut
+691,7,A,G + L + W,CG + W - BMG,G + L + W,CG + W - BMG - BM,,Registration
+692,7,A,0,CG + W - BMG,0,CG + W - BMG - BM,,Registration
+693,7,A,G + L + W + L,CG + W - BMG,G + L + W + L,CG + W - BMG - BM,,Registration
+694,7,A,(G + L + W + L + W) - CTBK,CG + W - BMG,(G + L + W + L + W) - CTBK,CG + W - BMG - BM,,Registration
+695,7,A,0,CG + W + D + BMG,0,CG + W + D + BMG + BM,,Registration
+696,7,A,G + L + W,CG + W + D + BMG,G + L + W,CG + W + D + BMG + BM,,Registration
+697,7,A,G + L + W + L,CG + W + D + BMG,G + L + W + L,CG + W + D + BMG + BM,,Registration
+698,7,A,(G + L + W + L + W) - CTBK,CG + W + D + BMG,(G + L + W + L + W) - CTBK,CG + W + D + BMG + BM,,Registration
+699,7,A,G  - BMG,CG + W + 0,G - BMG - BM,CG + W + 0,,Registration
+700,7,A,G  - BMG,CG + W + D + X4,G - BMG - BM,CG + W + D + X4,,Registration
+701,7,A,(G + L + W + L + W) - CTBK + BMG,CG + W + D,(G + L + W + L + W) - CTBK + BMG + BM,CG + W + D,,Registration
+702,7,A,(G + L + W + L + W) - CTBK + BMG,CG + W + 0,(G + L + W + L + W) - CTBK + BMG + BM,CG + W + 0,,Registration
+703,7,A,G  - BMG,CG + W + (-W + R5),G - BMG - BM,CG + W + (-W + R5),,Registration
+704,7,A,G + L + BMG,CG + W + (-W + R5),G + L + BMG + BM,CG + W + (-W + R5),,Registration
+705,7,A,G - BMG,CG + W + D + W - R5,G - BMG - BM,CG + W + D + W - R5,,Registration
+706,7,A,G + L + BMG,CG + W + D + W - R5,G + L + BMG + BM,CG + W + D + W - R5,,Registration
+707,7,B,G + 0,CG + W + 0,G + 0,CG + W + D,,Crease
+708,7,B,G + L,CG + W + 0,G + L,CG + W + D,,Crease
+709,7,B,G + L + W,CG + W + 0,G + L + W,CG + W + D,,Crease
+710,7,B,G + L + W + L,CG + W + 0,G + L + W + L,CG + W + D,,Crease
+711,7,B,G + 0,CG + W + D + X4,G + L,CG + W + D + X4,,Cut
+712,7,B,G + L + Y1,CG + W + D,G + L + W ,CG + W + D,,Crease
+713,7,B,G + L + W + L,CG + W + D,G + L + W + L + W - Y1- CTBK,CG + W + D,,Crease
+714,7,B,G + L + Y1,CG + W + 0,G + L + W ,CG + W + 0,,Crease
+715,7,B,G + L + W,CG + W + 0,G + L + W + L,CG + W + 0,,Crease
+716,7,B,G + L + W + L,CG + W + 0,G + L + W + L + W - Y1- CTBK,CG + W + 0,,Crease
+717,7,B,G + L + W + E,CG + W + D + W - R5,G  + L + W + L - E,CG + W + D + W - R5,,Crease
+718,7,B,G + L + W + E,CG + W + (-W + R5),G  + L + W + L - E,CG + W + (-W + R5),,Crease
+719,7,B,G + L + W,CG + W + D,G + L + W + L,CG + W + D,,Crease
+720,7,B,G + 0,CG + W + 0,G + L,CG + W + 0,,Cut
+721,7,B,(G + L + W + L + W) - CTBK,CG + W + 0,G + (L + W + L + W) - CTBK,CG + W + D,,Cut
+722,7,B,G + 0,CG + W + 0,0,CG + W + (Tan(T * (22 / 7) / 180) * G),,Cut
+723,7,B,0,CG + W + (Tan(T * (22 / 7) / 180) * G),0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)),,Cut
+724,7,B,0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)),G + 0,CG + W + D,,Cut
+725,7,B,G + L + W + 0,CG + W + D,G + L + W + 0,CG + W + D + W - R5,,Cut
+726,7,B,G + L + W + R5,CG + W + D + W,G + L + W + E - R5,CG + W + D + W,,Cut
+727,7,B,G + L + W + E,CG + W + D + W - R5,G  + L + W + E,CG + W + D + W - R5 - X5,,Cut
+728,7,B,G + L + W + L,CG + W + D,G + L + W + L,CG + W + D + W - R5,,Cut
+729,7,B,G + L + W + L - R5,CG + W + D + W,G + L + W + L - E + R5,CG + W + D + W,,Cut
+730,7,B,G + L + W+ L - E,CG + W + D + W - R5,G  + L + W + L - E,CG + W + D + W - R5 - X5,,Cut
+731,7,B,G + L + W + Y + C,CG + W + D + W + X4 + C,G + L + W + L - Y - C,CG + W + D + W + X4 + C,,Cut
+732,7,B,G + L + W,CG + W + 0,G + L + W,CG + W -W + R5,,Cut
+733,7,B,G + L + W + R5,CG + W -W,G + L + W + E - R5,CG + W -W,,Cut
+734,7,B,G + L + W+ E,CG + W -W + R5,G + L + W+ E,CG + W -W + R5 + X5,,Cut
+735,7,B,G + L + W + L,CG + W + 0,G + L + W + L,CG + W -W + R5,,Cut
+736,7,B,G + L + W + L - R5,CG + W -W,G + L + W+ L - E + R5,CG + W -W,,Cut
+737,7,B,G + L + W+ L - E,CG + W -W + R5,G + L + W+ L - E,CG + W -W + R5 + X5,,Cut
+738,7,B,G + L + W+ Y + C,CG + W + (-W - X4 - C),G + L + W + L - Y - C,CG + W -W - X4 - C,,Cut
+739,7,B,G + L + W + L,CG + W + D,G  + L + W+ L + N4,CG + W + D + N4,,Cut
+740,7,B,G + L + W + L + N4,CG + W + D + N4,G + L + W+ L + N4,CG + W + D + (X4 + W - X6 + C + OFST) / 2,,Cut
+741,7,B,G + L + W + L + W,CG + W + D,G + L + W + L + W - Y1,CG + W + D,,Cut
+742,7,B,G + L + W + L + W - Y1,CG + W + D,G + L + W+ L + W - Y1,CG + W + D + S2 - R13,,Cut
+743,7,B,G + L + W + L + W - Y1 - (TempB),CG + W + D + S2 - R13 + (TempP),G  + L + W+ L + W - Y1 - N - (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)),,Cut
+744,7,B,G + L + W+ L + W - Y1 - N - (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)),G + L + W+ L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A,,Cut
+745,7,B,G + L + W + L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A,G  + L + W+ L + N,CG + W + D + A,,Cut
+746,7,B,G + L + W - CTBK,CG + W + D,G + L + W - CTBK - N4,CG + W + D + N4,,Cut
+747,7,B,G + L + W - CTBK - N4,CG + W + D + N4,G + L + W - CTBK - N4,CG + W + D + (X4 + W - X6 + C + OFST) / 2,,Cut
+748,7,B,G + L,CG + W + D,G + L + Y1,CG + W + D,,Cut
+749,7,B,G + L + Y1,CG + W + D,G + L + Y1,CG + W + D + S2 - R13,,Cut
+750,7,B,G + L + Y1 + (TempB),CG + W + D + S2 - R13 + (TempP),G + L + Y1 + N + (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)),,Cut
+751,7,B,G + L + Y1 + N + (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)),G + L + Y1 + N + (TempB) + (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A,,Cut
+752,7,B,G + L + Y1 + N + (TempB) + (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A,G + L + W - CTBK - N,CG + W + D + A,,Cut
+753,7,B,G + L + W - CTBK,CG + W + 0,G + L + W - CTBK - N4,CG+W-N4,,Cut
+754,7,B,G + L + W - CTBK - N4,CG+W-N4,G + L + W - CTBK - N4,CG + W -(X4 + W - X6 + C + OFST) / 2,,Cut
+755,7,B,G + L,CG + W + 0,G + L + Y1,CG + W + 0,,Cut
+756,7,B,G + L + Y1,CG + W + 0,G + L + Y1,CG + W + 0 - S2 + R13,,Cut
+757,7,B,G + L + Y1 + (TempB),CG + W + 0 - S2 + R13 - (TempP),G + L + Y1 + N + (TempB),CG + W + 0 - S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),,Cut
+758,7,B,G + L + Y1 + N + (TempB),CG + W + 0 - S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),G + L + Y1 + N + (TempB) + (((0 + A) - (0 + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,,Cut
+759,7,B,G + L + Y1 + N + (TempB) + (((0 + A) - (0 + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,G + L + W - CTBK - N4,CG + W -A,,Cut
+760,7,B,G + L + W + L,CG + W + 0,G + L + W+ L + N4,CG + W + 0 - N4,,Cut
+761,7,B,G  + L + W+ L + N4,CG + W + 0 - N4,G  + L + W+ L + N4,CG + W + 0 - (X4 + W - X6 + C + OFST) / 2,,Cut
+762,7,B,G + L + W+ L + W,CG + W + 0,G  + L + W+ L + W - Y1,CG + W + 0,,Cut
+763,7,B,G + L + W + L + W - Y1,CG + W + 0,G  + L + W+ L + W - Y1,CG + W + 0 - S2 + R13,,Cut
+764,7,B,G + L + W+ L + W - Y1 - (TempB),CG + W + 0 - S2 + R13 - (TempP),G + L + W+ L + W- Y1 - N - (TempB),CG + W -S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),,Cut
+765,7,B,G + L + W + L + W- Y1 - N - (TempB),CG + W -S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),G + L + W+ L + W- Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,,Cut
+766,7,B,G  + L + W+ L + W- Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,G  + L + W+ L + N,CG + W -A,,Cut
+767,7,B,G,CG + W - BMG,G,CG + W - BMG - BM,,Registration
+768,7,B,0,CG + W - BMG,0,CG + W - BMG - BM,,Registration
+769,7,B,G + L ,CG + W - BMG,G + L ,CG + W - BMG - BM,,Registration
+770,7,B,(G + L + W + L + W) - CTBK,CG + W - BMG,(G + L + W + L + W) - CTBK,CG + W - BMG - BM,,Registration
+771,7,B,0,CG + W + D + BMG,0,CG + W + D + BMG + BM,,Registration
+772,7,B,G ,CG + W + D + BMG,G ,CG + W + D + BMG + BM,,Registration
+773,7,B,G + L ,CG + W + D + BMG,G + L ,CG + W + D + BMG + BM,,Registration
+774,7,B,(G + L + W + L + W) - CTBK,CG + W + D + BMG,(G + L + W + L + W) - CTBK,CG + W + D + BMG + BM,,Registration
+775,7,B,G  - BMG,CG + W + 0,G - BMG - BM,CG + W + 0,,Registration
+776,7,B,G  - BMG,CG + W + D + X4,G - BMG - BM,CG + W + D + X4,,Registration
+777,7,B,(G + L + W + L + W) - CTBK + BMG,CG + W + D,(G + L + W + L + W) - CTBK + BMG + BM,CG + W + D,,Registration
+778,7,B,(G + L + W + L + W) - CTBK + BMG,CG + W + 0,(G + L + W + L + W) - CTBK + BMG + BM,CG + W + 0,,Registration
+779,7,B,G + L + W - BMG,CG + W + (-W + R5),G + L + W - BMG - BM,CG + W + (-W + R5),,Registration
+780,7,B,G  + L + W+ L + BMG,CG + W + (-W + R5),G + L + W+ L + BMG + BM,CG + W + (-W + R5),,Registration
+781,7,B,G + L + W - BMG,CG + W + D + W - R5,G + L + W- BMG - BM,CG + W + D + W - R5,,Registration
+782,7,B,G + L + W+ L + BMG,CG + W + D + W - R5,G + L + W+ L + BMG + BM,CG + W + D + W - R5,,Registration
+783,8,A,G + 0,CG + W + 0,G + 0,CG + W + D,,Crease
+784,8,A,G + L,CG + W + 0,G + L,CG + W + D,,Crease
+785,8,A,G + L + W,CG + W + 0,G + L + W,CG + W + D,,Crease
+786,8,A,G + L + W + L,CG + W + 0,G + L + W + L,CG + W + D,,Crease
+787,8,A,G + 0,CG + W + D + X4,G + L,CG + W + D + X4,,Crease
+788,8,A,G + L,CG + W + D,G + L + W - Y1,CG + W + D,,Crease
+789,8,A,G + L + W + L + Y1,CG + W + D,G + L + W + L + W - CTBK,CG + W + D,,Crease
+790,8,A,G + L,CG + W + 0,G + L + W - Y1,CG + W + 0,,Crease
+791,8,A,G + L + W,CG + W + 0,G + L + W + L,CG + W + 0,,Crease
+792,8,A,G + L + W + L + Y1,CG + W + 0,G + L + W + L + W - CTBK,CG + W + 0,,Crease
+793,8,A,G + E,CG + W + D + W - R5,G + L - E,CG + W + D + W - R5,,Crease
+794,8,A,G + E,CG + W + (-W + R5),G + L - E,CG + W + (-W + R5),,Crease
+795,8,A,G + L + W,CG + W + D,G + L + W + L,CG + W + D,,Cut
+796,8,A,G + 0,CG + W + 0,G + L,CG + W + 0,,Crease
+797,8,A,(G + L + W + L + W) - CTBK,CG + W + 0,G + (L + W + L + W) - CTBK,CG + W + D,,Cut
+798,8,A,G + 0,CG + W + 0,0,CG + W + (Tan(T * (22 / 7) / 180) * G),,Cut
+799,8,A,0,CG + W + (Tan(T * (22 / 7) / 180) * G),0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)),,Cut
+800,8,A,0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)),G + 0,CG + W + D,,Cut
+801,8,A,G + 0,CG + W + D,G + 0,CG + W + D + W - R5,,Cut
+802,8,A,G + R5,CG + W + D + W,G + E - R5,CG + W + D + W,,Cut
+803,8,A,G + E,CG + W + D + W - R5,G + E,CG + W + D + W - R5 - X5,,Cut
+804,8,A,G + L,CG + W + D,G + L,CG + W + D + W - R5,,Cut
+805,8,A,G + L - R5,CG + W + D + W,G + L - E + R5,CG + W + D + W,,Cut
+806,8,A,G + L - E,CG + W + D + W - R5,G + L - E,CG + W + D + W - R5 - X5,,Cut
+807,8,A,G + Y + C,CG + W + D + W + X4 + C,G + L - Y - C,CG + W + D + W + X4 + C,,Cut
+808,8,A,G + 0,CG + W + 0,G + 0,CG + W -W + R5,,Cut
+809,8,A,G + R5,CG + W -W,G + E - R5,CG + W -W,,Cut
+810,8,A,G + E,CG + W -W + R5,G + E,CG + W -W + R5 + X5,,Cut
+811,8,A,G + L,CG + W + 0,G + L,CG + W -W + R5,,Cut
+812,8,A,G + L - R5,CG + W -W,G + L - E + R5,CG + W -W,,Cut
+813,8,A,G + L - E,CG + W -W + R5,G + L - E,CG + W -W + R5 + X5,,Cut
+814,8,A,G + Y + C,CG + W + (-W - X4 - C),G + L - Y - C,CG + W -W - X4 - C,,Cut
+815,8,A,G + L,CG + W + D,G + L + N4,CG + W + D + N4,,Cut
+816,8,A,G + L + N4,CG + W + D + N4,G + L + N4,CG + W + D + (X4 + W - X6 + C + OFST) / 2,,Cut
+817,8,A,G + L + W,CG + W + D,G + L + W - Y1,CG + W + D,,Cut
+818,8,A,G + L + W - Y1,CG + W + D,G + L + W - Y1,CG + W + D + S2 - R13,,Cut
+819,8,A,G + L + W - Y1 - (TempB),CG + W + D + S2 - R13 + (TempP),G + L + W - Y1 - N - (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)),,Cut
+820,8,A,G + L + W - Y1 - N - (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)),G + L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A,,Cut
+821,8,A,G + L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A,G + L + N,CG + W + D + A,,Cut
+822,8,A,G + L + W + L + W - CTBK,CG + W + D,G + L + W + L + W - CTBK - N4,CG + W + D + N4,,Cut
+823,8,A,G + L + W + L + W - CTBK - N4,CG + W + D + N4,G + L + W + L + W - CTBK - N4,CG + W + D + (X4 + W - X6 + C + OFST) / 2,,Cut
+824,8,A,G + L + W + L,CG + W + D,G + L + W + L + Y1,CG + W + D,,Cut
+825,8,A,G + L + W + L + Y1,CG + W + D,G + L + W + L + Y1,CG + W + D + S2 - R13,,Cut
+826,8,A,G + L + W + L + Y1 + (TempB),CG + W + D + S2 - R13 + (TempP),G + L + W + L + Y1 + N + (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)),,Cut
+827,8,A,G + L + W + L + Y1 + N + (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)),G + L + W + L + Y1 + N + (TempB) + (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A,,Cut
+828,8,A,G + L + W + L + Y1 + N + (TempB) + (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A,G + L + W + L + W - CTBK - N,CG + W + D + A,,Cut
+829,8,A,G + L + W + L + W - CTBK,CG + W + 0,G + L + W + L + W - CTBK - N4,CG+W-N4,,Cut
+830,8,A,G + L + W + L + W - CTBK - N4,CG+W-N4,G + L + W + L + W - CTBK - N4,CG + W -(X4 + W - X6 + C + OFST) / 2,,Cut
+831,8,A,G + L + W + L,CG + W + 0,G + L + W + L + Y1,CG + W + 0,,Cut
+832,8,A,G + L + W + L + Y1,CG + W + 0,G + L + W + L + Y1,CG + W + 0 - S2 + R13,,Cut
+833,8,A,G + L + W + L + Y1 + (TempB),CG + W + 0 - S2 + R13 - (TempP),G + L + W + L + Y1 + N + (TempB),CG + W + 0 - S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),,Cut
+834,8,A,G + L + W + L + Y1 + N + (TempB),CG + W + 0 - S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),G + L + W + L + Y1 + N + (TempB) + (((0 + A) - (0 + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,,Cut
+835,8,A,G + L + W + L + Y1 + N + (TempB) + (((0 + A) - (0 + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,G + L + W + L + W - CTBK - N4,CG + W -A,,Cut
+836,8,A,G + L,CG + W + 0,G + L + N4,CG + W + 0 - N4,,Cut
+837,8,A,G + L + N4,CG + W + 0 - N4,G + L + N4,CG + W + 0 - (X4 + W - X6 + C + OFST) / 2,,Cut
+838,8,A,G + L + W,CG + W + 0,G + L + W - Y1,CG + W + 0,,Cut
+839,8,A,G + L + W - Y1,CG + W + 0,G + L + W - Y1,CG + W + 0 - S2 + R13,,Cut
+840,8,A,G + L + W - Y1 - (TempB),CG + W + 0 - S2 + R13 - (TempP),G + L + W- Y1 - N - (TempB),CG + W -S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),,Cut
+841,8,A,G + L + W- Y1 - N - (TempB),CG + W -S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),G + L + W- Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,,Cut
+842,8,A,G + L + W- Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,G + L + N,CG + W -A,,Cut
+843,8,A,G + L + W,CG + W + D + BMG,G + L + W,CG + W + D + BMG + BM,,Registration
+844,8,A,0,CG + W - BMG,0,CG + W - BMG - BM,,Registration
+845,8,A,G + L + W + L,CG + W + D + BMG,G + L + W + L,CG + W + D + BMG + BM,,Registration
+846,8,A,(G + L + W + L + W) - CTBK,CG + W - BMG,(G + L + W + L + W) - CTBK,CG + W - BMG - BM,,Registration
+847,8,A,0,CG + W + D + BMG,0,CG + W + D + BMG + BM,,Registration
+848,8,A,G + L + W - BMG,((W + X4 + C) / 2),G + L + W - (BMG + BM),((W + X4 + C) / 2),,Registration
+849,8,A,G + L + W + L + BMG,((W + X4 + C) / 2),G + L + W + L + BMG + BM,((W + X4 + C) / 2),,Registration
+850,8,A,(G + L + W + L + W) - CTBK,CG + W + D + BMG,(G + L + W + L + W) - CTBK,CG + W + D + BMG + BM,,Registration
+851,8,A,G  - BMG,CG + W + 0,G - BMG - BM,CG + W + 0,,Registration
+852,8,A,G  - BMG,CG + W + D + X4,G - BMG - BM,CG + W + D + X4,,Registration
+853,8,A,(G + L + W + L + W) - CTBK + BMG,CG + W + D,(G + L + W + L + W) - CTBK + BMG + BM,CG + W + D,,Registration
+854,8,A,(G + L + W + L + W) - CTBK + BMG,CG + W + 0,(G + L + W + L + W) - CTBK + BMG + BM,CG + W + 0,,Registration
+855,8,A,G  - BMG,CG + W + (-W + R5),G - BMG - BM,CG + W + (-W + R5),,Registration
+856,8,A,G + L + BMG,CG + W + (-W + R5),G + L + BMG + BM,CG + W + (-W + R5),,Registration
+857,8,A,G - BMG,CG + W + D + W - R5,G - BMG - BM,CG + W + D + W - R5,,Registration
+858,8,A,G + L + BMG,CG + W + D + W - R5,G + L + BMG + BM,CG + W + D + W - R5,,Registration
+859,8,B,G + 0,CG + W + 0,G + 0,CG + W + D,,Crease
+860,8,B,G + L,CG + W + 0,G + L,CG + W + D,,Crease
+861,8,B,G + L + W,CG + W + 0,G + L + W,CG + W + D,,Crease
+862,8,B,G + L + W + L,CG + W + 0,G + L + W + L,CG + W + D,,Crease
+863,8,B,G + 0,CG + W + D + X4,G + L,CG + W + D + X4,,Crease
+864,8,B,G + L + Y1,CG + W + D,G + L + W ,CG + W + D,,Crease
+865,8,B,G + L + W + L,CG + W + D,G + L + W + L + W - Y1- CTBK,CG + W + D,,Crease
+866,8,B,G + L + Y1,CG + W + 0,G + L + W ,CG + W + 0,,Crease
+867,8,B,G + L + W,CG + W + 0,G + L + W + L,CG + W + 0,,Crease
+868,8,B,G + L + W + L,CG + W + 0,G + L + W + L + W - Y1- CTBK,CG + W + 0,,Crease
+869,8,B,G + L + W + E,CG + W + D + W - R5,G  + L + W + L - E,CG + W + D + W - R5,,Crease
+870,8,B,G + L + W + E,CG + W + (-W + R5),G  + L + W + L - E,CG + W + (-W + R5),,Crease
+871,8,B,G + L + W,CG + W + D,G + L + W + L,CG + W + D,,Crease
+872,8,B,G + 0,CG + W + 0,G + L,CG + W + 0,,Cut
+873,8,B,(G + L + W + L + W) - CTBK,CG + W + 0,G + (L + W + L + W) - CTBK,CG + W + D,,Cut
+874,8,B,G + 0,CG + W + 0,0,CG + W + (Tan(T * (22 / 7) / 180) * G),,Cut
+875,8,B,0,CG + W + (Tan(T * (22 / 7) / 180) * G),0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)),,Cut
+876,8,B,0,CG + W + D - ((Tan(T * (22 / 7) / 180) * G)),G + 0,CG + W + D,,Cut
+877,8,B,G + L + W + 0,CG + W + D,G + L + W + 0,CG + W + D + W - R5,,Cut
+878,8,B,G + L + W + R5,CG + W + D + W,G + L + W + E - R5,CG + W + D + W,,Cut
+879,8,B,G + L + W + E,CG + W + D + W - R5,G  + L + W + E,CG + W + D + W - R5 - X5,,Cut
+880,8,B,G + L + W + L,CG + W + D,G + L + W + L,CG + W + D + W - R5,,Cut
+881,8,B,G + L + W + L - R5,CG + W + D + W,G + L + W + L - E + R5,CG + W + D + W,,Cut
+882,8,B,G + L + W+ L - E,CG + W + D + W - R5,G  + L + W + L - E,CG + W + D + W - R5 - X5,,Cut
+883,8,B,G + L + W + Y + C,CG + W + D + W + X4 + C,G + L + W + L - Y - C,CG + W + D + W + X4 + C,,Cut
+884,8,B,G + L + W,CG + W + 0,G + L + W,CG + W -W + R5,,Cut
+885,8,B,G + L + W + R5,CG + W -W,G + L + W + E - R5,CG + W -W,,Cut
+886,8,B,G + L + W+ E,CG + W -W + R5,G + L + W+ E,CG + W -W + R5 + X5,,Cut
+887,8,B,G + L + W + L,CG + W + 0,G + L + W + L,CG + W -W + R5,,Cut
+888,8,B,G + L + W + L - R5,CG + W -W,G + L + W+ L - E + R5,CG + W -W,,Cut
+889,8,B,G + L + W+ L - E,CG + W -W + R5,G + L + W+ L - E,CG + W -W + R5 + X5,,Cut
+890,8,B,G + L + W+ Y + C,CG + W + (-W - X4 - C),G + L + W + L - Y - C,CG + W -W - X4 - C,,Cut
+891,8,B,G + L + W + L,CG + W + D,G  + L + W+ L + N4,CG + W + D + N4,,Cut
+892,8,B,G + L + W + L + N4,CG + W + D + N4,G + L + W+ L + N4,CG + W + D + (X4 + W - X6 + C + OFST) / 2,,Cut
+893,8,B,G + L + W + L + W,CG + W + D,G + L + W + L + W - Y1,CG + W + D,,Cut
+894,8,B,G + L + W + L + W - Y1,CG + W + D,G + L + W+ L + W - Y1,CG + W + D + S2 - R13,,Cut
+895,8,B,G + L + W + L + W - Y1 - (TempB),CG + W + D + S2 - R13 + (TempP),G  + L + W+ L + W - Y1 - N - (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)),,Cut
+896,8,B,G + L + W+ L + W - Y1 - N - (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)),G + L + W+ L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A,,Cut
+897,8,B,G + L + W + L + W - Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A,G  + L + W+ L + N,CG + W + D + A,,Cut
+898,8,B,G + L + W - CTBK,CG + W + D,G + L + W - CTBK - N4,CG + W + D + N4,,Cut
+899,8,B,G + L + W - CTBK - N4,CG + W + D + N4,G + L + W - CTBK - N4,CG + W + D + (X4 + W - X6 + C + OFST) / 2,,Cut
+900,8,B,G + L,CG + W + D,G + L + Y1,CG + W + D,,Cut
+901,8,B,G + L + Y1,CG + W + D,G + L + Y1,CG + W + D + S2 - R13,,Cut
+902,8,B,G + L + Y1 + (TempB),CG + W + D + S2 - R13 + (TempP),G + L + Y1 + N + (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)),,Cut
+903,8,B,G + L + Y1 + N + (TempB),CG + W + D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)),G + L + Y1 + N + (TempB) + (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A,,Cut
+904,8,B,G + L + Y1 + N + (TempB) + (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W + D + A,G + L + W - CTBK - N,CG + W + D + A,,Cut
+905,8,B,G + L + W - CTBK,CG + W + 0,G + L + W - CTBK - N4,CG+W-N4,,Cut
+906,8,B,G + L + W - CTBK - N4,CG+W-N4,G + L + W - CTBK - N4,CG + W -(X4 + W - X6 + C + OFST) / 2,,Cut
+907,8,B,G + L,CG + W + 0,G + L + Y1,CG + W + 0,,Cut
+908,8,B,G + L + Y1,CG + W + 0,G + L + Y1,CG + W + 0 - S2 + R13,,Cut
+909,8,B,G + L + Y1 + (TempB),CG + W + 0 - S2 + R13 - (TempP),G + L + Y1 + N + (TempB),CG + W + 0 - S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),,Cut
+910,8,B,G + L + Y1 + N + (TempB),CG + W + 0 - S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),G + L + Y1 + N + (TempB) + (((0 + A) - (0 + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,,Cut
+911,8,B,G + L + Y1 + N + (TempB) + (((0 + A) - (0 + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,G + L + W - CTBK - N4,CG + W -A,,Cut
+912,8,B,G + L + W + L,CG + W + 0,G + L + W+ L + N4,CG + W + 0 - N4,,Cut
+913,8,B,G  + L + W+ L + N4,CG + W + 0 - N4,G  + L + W+ L + N4,CG + W + 0 - (X4 + W - X6 + C + OFST) / 2,,Cut
+914,8,B,G + L + W+ L + W,CG + W + 0,G  + L + W+ L + W - Y1,CG + W + 0,,Cut
+915,8,B,G + L + W + L + W - Y1,CG + W + 0,G  + L + W+ L + W - Y1,CG + W + 0 - S2 + R13,,Cut
+916,8,B,G + L + W+ L + W - Y1 - (TempB),CG + W + 0 - S2 + R13 - (TempP),G + L + W+ L + W- Y1 - N - (TempB),CG + W -S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),,Cut
+917,8,B,G + L + W + L + W- Y1 - N - (TempB),CG + W -S2 + R13 - (TempP) - (N * Tan(2 * PI * T6 / 360.0)),G + L + W+ L + W- Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,,Cut
+918,8,B,G  + L + W+ L + W- Y1 - N - (TempB) - (((D + A) - (D + S2 - R13 + (TempP) + (N * Tan(2 * PI * T6 / 360.0)))) * Tan(2 * PI * T7 / 360.0)),CG + W -A,G  + L + W+ L + N,CG + W -A,,Cut
+919,8,B,G,CG + W - BMG,G,CG + W - BMG - BM,,Registration
+920,8,B,0,CG + W - BMG,0,CG + W - BMG - BM,,Registration
+921,8,B,G + L ,CG + W - BMG,G + L ,CG + W - BMG - BM,,Registration
+922,8,B,(G + L + W + L + W) - CTBK,CG + W - BMG,(G + L + W + L + W) - CTBK,CG + W - BMG - BM,,Registration
+923,8,B,0,CG + W + D + BMG,0,CG + W + D + BMG + BM,,Registration
+924,8,B,G - BMG,CG + W + D + ((W + X4 + C) / 2),G - (BMG + BM),CG + W + D + ((W + X4 + C) / 2),,Registration
+925,8,B,G + L  + BMG,CG + W + D + ((W + X4 + C) / 2),G + L  + BMG + BM,CG + W + D + ((W + X4 + C) / 2),,Registration
+926,8,B,(G + L + W + L + W) - CTBK,CG + W + D + BMG,(G + L + W + L + W) - CTBK,CG + W + D + BMG + BM,,Registration
+927,8,B,G  - BMG,CG + W + 0,G - BMG - BM,CG + W + 0,,Registration
+928,8,B,G  - BMG,CG + W + D + X4,G - BMG - BM,CG + W + D + X4,,Registration
+929,8,B,(G + L + W + L + W) - CTBK + BMG,CG + W + D,(G + L + W + L + W) - CTBK + BMG + BM,CG + W + D,,Registration
+930,8,B,(G + L + W + L + W) - CTBK + BMG,CG + W + 0,(G + L + W + L + W) - CTBK + BMG + BM,CG + W + 0,,Registration
+931,8,B,G + L + W - BMG,CG + W + (-W + R5),G + L + W - BMG - BM,CG + W + (-W + R5),,Registration
+932,8,B,G  + L + W+ L + BMG,CG + W + (-W + R5),G + L + W+ L + BMG + BM,CG + W + (-W + R5),,Registration
+933,8,B,G + L + W - BMG,CG + W + D + W - R5,G + L + W- BMG - BM,CG + W + D + W - R5,,Registration
+934,8,B,G + L + W+ L + BMG,CG + W + D + W - R5,G + L + W+ L + BMG + BM,CG + W + D + W - R5,,Registration
+935,8,A,G + L +  W,CG + W,G + L +  W,CG + W- ((W + X4 + C) / 2),,Cut
+936,8,A,G + L +  W,((W + X4 + C) / 2),G + L +  W,0,,Cut
+937,8,A,G + L +  W,0,G + L +  W + L,0,,Cut
+938,8,A,G + L +  W + L,0,G + L +  W + L,CG + W - ((W + X4 + C) / 2),,Cut
+939,8,A,G + L +  W + L,CG + W - ((W + X4 + C) / 2),G + L +  W + L,CG + W ,,Cut
+940,8,A,G + L +  W,CG + W - ((W + X4 + C) / 2),G + L +  W + L,CG + W - ((W + X4 + C) / 2),,Crease
+941,8,B,G ,CG + W + D,G,CG + W + D + ((W + X4 + C) / 2),,Cut
+942,8,B,G,CG + W + D + ((W + X4 + C) / 2),G,CG + W + D + W + X4 + C,,Cut
+943,8,B,G,CG + W + D + W + X4 + C,G + L,CG + W + D + W + X4 + C,,Cut
+944,8,B,G + L,CG + W + D + W + X4 + C,G + L,CG + W + D + ((W + X4 + C) / 2),,Cut
+945,8,B,G + L,CG + W + D + ((W + X4 + C) / 2),G + L,CG + W + D,,Cut
+946,8,B,G,CG + W + D + ((W + X4 + C) / 2),G + L,CG + W + D + ((W + X4 + C) / 2),,Crease

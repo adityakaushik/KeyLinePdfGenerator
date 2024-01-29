@@ -1,0 +1,169 @@
+ShapeCurveId,ShapeTemplateId,DesignName,CenterX,CenterY,Radius1,Radius2,StartAngle,EndAngle,Pie,LineType
+1,1,A,G + E - R5,CG + W + D + W - R5,R5,R5,270,0,DU,Cut
+2,1,A,G + L - R5,CG + W + D + W - R5,R5,R5,270,0,DU,Cut
+3,1,A,G + L - Y - C,CG + W + D + W + X4,C,C,270,0,DU,TCut
+4,1,A,G + L + W - Y1 - R13,CG + W + D + S2 - R13,R13,R13,315,0,DU,Cut
+5,1,A,G + L + W + E - R5,CG + W -W + R5,R5,R5,0,90,AD,Cut
+6,1,A,G + L + W + L - R5,CG + W -W + R5,R5,R5,0,90,AD,Cut
+7,1,A,G + L + W + L - Y - C,CG + W -W - X4,C,C,0,90,AD,TCut
+8,1,A,G + L + W + L + W - Y1 - R13,CG + W + 0 - S2 + R13,R13,R13,0,45,AD,Cut
+9,1,A,G + L + W + R5,CG + W -W + R5,R5,R5,90,180,DD,Cut
+10,1,A,G + L + W + L - E + R5,CG + W -W + R5,R5,R5,90,180,DD,Cut
+11,1,A,G + L + W + Y + C,CG + W -W - X4,C,C,90,180,DD,TCut
+12,1,A,G + L + Y1 + R13,CG + W + 0 - S2 + R13,R13,R13,135,180,DD,Cut
+13,1,A,G + R5,CG + W + D + W - R5,R5,R5,180,-90,AU,Cut
+14,1,A,G + L - E + R5,CG + W + D + W - R5,R5,R5,180,-90,AU,Cut
+15,1,A,G + Y + C,CG + W + D + W + X4,C,C,180,-90,AU,TCut
+16,1,A,G + L + W + L + Y1 + R13,CG + W + D + S2 - R13,R13,R13,180,-135,AU,Cut
+17,2,A,G + E - R5,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),R5,R5,270,0,,Cut
+18,2,A,G + L - R5,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),R5,R5,270,0,,Cut
+19,2,A,G + L - Y - C,CG + W + D + W + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),C,C,270,0,,Cut
+20,2,A,G + L + W - Y1 - R13,CG + W + D + S2 - R13 - (CG + W - (W * LOCK_PERCENTAGE %)),R13,R13,315,0,,Cut
+21,2,A,G + R5,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),R5,R5,180,-90,,Cut
+22,2,A,G + L - E + R5,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),R5,R5,180,-90,,Cut
+23,2,A,G + Y + C,CG + W + D + W + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),C,C,180,-90,,Cut
+24,2,A,G + L + W + L + Y1 + R13,CG + W + D + S2 - R13 - (CG + W - (W * LOCK_PERCENTAGE %)),R13,R13,180,-135,,Cut
+25,2,A,G + L,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),R5,R5,180,0,,Cut
+26,2,A,G + L + W + L,CG + W - (CG + W - (W * LOCK_PERCENTAGE %)),R5,R5,180,0,,Cut
+27,2,B,G + L + W + E - R5,CG + W -W + R5,R5,R5,0,90,,Cut
+28,2,B,G + L + W + L - R5,CG + W -W + R5,R5,R5,0,90,,Cut
+29,2,B,G + L + W + L - Y - C,CG + W -W - X4,C,C,0,90,,Cut
+30,2,B,G + L + W + L + W - Y1 - R13,CG + W + 0 - S2 + R13,R13,R13,0,45,,Cut
+31,2,B,G + L + W + R5,CG + W -W + R5,R5,R5,90,180,,Cut
+32,2,B,G + L + W + L - E + R5,CG + W -W + R5,R5,R5,90,180,,Cut
+33,2,B,G + L + W + Y + C,CG + W -W - X4,C,C,90,180,,Cut
+34,2,B,G + L + Y1 + R13,CG + W + 0 - S2 + R13,R13,R13,135,180,,Cut
+35,2,B,G + L,CG + W + D,R5,R5,0,180,,Cut
+36,2,B,G + L + W + L,CG + W + D,R5,R5,0,180,,Cut
+37,3,A,G + L + (N6 / 2),(W  * CG%) + D,N6/2,N6/2,0,180,,Cut
+38,3,A,G + L + W - (N6 / 2),(W  * CG%) + D,N6/2,N6/2,0,180,,Cut
+39,3,A,G + L + W + L + (N6 / 2),(W  * CG%) + D,N6/2,N6/2,0,180,,Cut
+40,3,A,G + L + (N6 / 2),(W  * CG%),N6/2,N6/2,180,0,,Cut
+41,3,A,G + L + W - (N6 / 2),(W  * CG%),N6/2,N6/2,180,0,,Cut
+42,3,A,G + L + W + L + (N6 / 2),(W  * CG%),N6/2,N6/2,180,0,,Cut
+43,4,A,G + E - R5,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),R5,R5,270,0,,Cut
+44,4,A,G + L - R5,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),R5,R5,270,0,,Cut
+45,4,A,G + L - Y - C,CG + W + D + W + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),C,C,270,0,,Cut
+46,4,A,G + L + W - Y1 - R13,CG + W + D + S2 - R13 - (CG + W - (W * LOCK_PERCENTAGE %)),R13,R13,315,0,,Cut
+47,4,A,G + R5,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),R5,R5,180,-90,,Cut
+48,4,A,G + L - E + R5,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),R5,R5,180,-90,,Cut
+49,4,A,G + Y + C,CG + W + D + W + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),C,C,180,-90,,Cut
+50,4,A,G + L + W + L + Y1 + R13,CG + W + D + S2 - R13 - (CG + W - (W * LOCK_PERCENTAGE %)),R13,R13,180,-135,,Cut
+51,4,A,G+ (W/2)/(TAN(T6 * (22 / 7) / 180)) - R9,R9,R9,R9,0,90,,Cut
+52,4,A,(G + L)- ((W/2)/(TAN(T6 * (22 / 7) / 180)) - R9),R9,R9,R9,90,180,,Cut
+53,4,A,G + L + (W/2)/(TAN(T63 * (22 / 7) / 180)) - Y1,((W * LOCK_PERCENTAGE %) - (W/2))/2,((W * LOCK_PERCENTAGE %) - (W/2))/2,((W * LOCK_PERCENTAGE %) - (W/2))/2,90,270,,Cut
+54,4,A,G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)) + R9,R9,R9,R9,90,180,,Cut
+55,4,A,G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)) - R9,R9,R9,R9,0,90,,Cut
+56,4,A,G + L +W +L+W-CTBK- (W/2)/(TAN(T63 * (22 / 7) / 180)),((W * LOCK_PERCENTAGE %) - (W/2))/2,((W * LOCK_PERCENTAGE %) - (W/2))/2,((W * LOCK_PERCENTAGE %) - (W/2))/2,270,90,,Cut
+57,4,B,G + L + W + E - R5,CG + W -W + R5,R5,R5,0,90,,Cut
+58,4,B,G + L + W + L - R5,CG + W -W + R5,R5,R5,0,90,,Cut
+59,4,B,G + L + W + L - Y - C,CG + W -W - X4,C,C,0,90,,Cut
+60,4,B,G + L + W + L + W - Y1 - R13,CG + W + 0 - S2 + R13,R13,R13,0,45,,Cut
+61,4,B,G + L + W + R5,CG + W -W + R5,R5,R5,90,180,,Cut
+62,4,B,G + L + W + L - E + R5,CG + W -W + R5,R5,R5,90,180,,Cut
+63,4,B,G + L + W + Y + C,CG + W -W - X4,C,C,90,180,,Cut
+64,4,B,G + L + Y1 + R13,CG + W + 0 - S2 + R13,R13,R13,135,180,,Cut
+65,4,B,G + L,CG + W + D,R5,R5,0,180,,Cut
+66,4,B,G + L + W + L,CG + W + D,R5,R5,0,180,,Cut
+67,4,B,G+ (W/2)/(TAN(T6 * (22 / 7) / 180)) - R9,CG + W + D + (W * LOCK_PERCENTAGE %) -  R9,R9,R9,270,0,,Cut
+68,4,B,(G + L)- ((W/2)/(TAN(T6 * (22 / 7) / 180)) - R9),CG + W + D + (W * LOCK_PERCENTAGE %) -  R9,R9,R9,180,270,,Cut
+69,4,B,G + L + (W/2)/(TAN(T63 * (22 / 7) / 180)) - Y1,CG + W + D +(W * LOCK_PERCENTAGE %) -  ((W * LOCK_PERCENTAGE %) - (W/2)) / 2,((W * LOCK_PERCENTAGE %) - (W/2))/2,((W * LOCK_PERCENTAGE %) - (W/2))/2,90,270,,Cut
+70,4,B,G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)) + R9,CG + W + D + (W * LOCK_PERCENTAGE %) -  R9,R9,R9,180,270,,Cut
+71,4,B,G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)) - R9,CG + W + D + (W * LOCK_PERCENTAGE %) -  R9,R9,R9,270,0,,Cut
+72,4,B,G + L +W +L+W-CTBK- (W/2)/(TAN(T63 * (22 / 7) / 180)),CG + W + D +(W * LOCK_PERCENTAGE %) -  ((W * LOCK_PERCENTAGE %) - (W/2)) / 2,((W * LOCK_PERCENTAGE %) - (W/2))/2,((W * LOCK_PERCENTAGE %) - (W/2))/2,270,90,,Cut
+73,5,A,0+R,H-R,R,R,180,270,,Cut
+74,5,A,L-R,H-R,R,R,270,0,,Cut
+75,5,A,L-R,0+R,R,R,0,90,,Cut
+76,5,A,0+ R,0+R,R,R,90,180,,Cut
+77,6,A,G + E - R5,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),R5,R5,270,0,,Cut
+78,6,A,G + L - R5,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),R5,R5,270,0,,Cut
+79,6,A,G + L - Y - C,CG + W + D + W + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),C,C,270,0,,Cut
+80,6,A,G + L + W - Y1 - R13,CG + W + D + S2 - R13 - (CG + W - (W * LOCK_PERCENTAGE %)),R13,R13,315,0,,Cut
+81,6,A,G + R5,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),R5,R5,180,-90,,Cut
+82,6,A,G + L - E + R5,CG + W + D + W - R5 - (CG + W - (W * LOCK_PERCENTAGE %)),R5,R5,180,-90,,Cut
+83,6,A,G + Y + C,CG + W + D + W + X4 - (CG + W - (W * LOCK_PERCENTAGE %)),C,C,180,-90,,Cut
+84,6,A,G + L + W + L + Y1 + R13,CG + W + D + S2 - R13 - (CG + W - (W * LOCK_PERCENTAGE %)),R13,R13,180,-135,,Cut
+85,6,A,G+ (W/2)/(TAN(T6 * (22 / 7) / 180)) - R9,R9,R9,R9,0,90,,Cut
+86,6,A,(G + L)- ((W/2)/(TAN(T6 * (22 / 7) / 180)) - R9),R9,R9,R9,90,180,,Cut
+87,6,A,G + L + (W/2) + Y1 + X6,((W * LOCK_PERCENTAGE %) - (L/2 - CTBK)) + (((W * LOCK_PERCENTAGE %) - (W/2)/(TAN(T6 * (22 / 7) / 180))) - ((W * LOCK_PERCENTAGE %) - (L/2 - CTBK))) / 2,(((W * LOCK_PERCENTAGE %) - (W/2)/(TAN(T6 * (22 / 7) / 180))) - ((W * LOCK_PERCENTAGE %) - (L/2 - CTBK))) / 2,(((W * LOCK_PERCENTAGE %) - (W/2)/(TAN(T6 * (22 / 7) / 180))) - ((W * LOCK_PERCENTAGE %) - (L/2 - CTBK))) / 2,90,270,,Cut
+88,6,A,G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)) + R9,R9,R9,R9,90,180,,Cut
+89,6,A,G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)) - R9,R9,R9,R9,0,90,,Cut
+90,6,A,G + L + W +L+W-CTBK- (W/2) - X6,((W * LOCK_PERCENTAGE %) - (L/2 - CTBK)) + (((W * LOCK_PERCENTAGE %) - (W/2)/(TAN(T6 * (22 / 7) / 180))) - ((W * LOCK_PERCENTAGE %) - (L/2 - CTBK))) / 2,(((W * LOCK_PERCENTAGE %) - (W/2)/(TAN(T6 * (22 / 7) / 180))) - ((W * LOCK_PERCENTAGE %) - (L/2 - CTBK))) / 2,(((W * LOCK_PERCENTAGE %) - (W/2)/(TAN(T6 * (22 / 7) / 180))) - ((W * LOCK_PERCENTAGE %) - (L/2 - CTBK))) / 2,270,90,,Cut
+91,6,B,G + L + W + E - R5,CG + W -W + R5,R5,R5,0,90,,Cut
+92,6,B,G + L + W + L - R5,CG + W -W + R5,R5,R5,0,90,,Cut
+93,6,B,G + L + W + L - Y - C,CG + W -W - X4,C,C,0,90,,Cut
+94,6,B,G + L + W + L + W - Y1 - R13,CG + W + 0 - S2 + R13,R13,R13,0,45,,Cut
+95,6,B,G + L + W + R5,CG + W -W + R5,R5,R5,90,180,,Cut
+96,6,B,G + L + W + L - E + R5,CG + W -W + R5,R5,R5,90,180,,Cut
+97,6,B,G + L + W + Y + C,CG + W -W - X4,C,C,90,180,,Cut
+98,6,B,G + L + Y1 + R13,CG + W + 0 - S2 + R13,R13,R13,135,180,,Cut
+99,6,B,G+ (W/2)/(TAN(T6 * (22 / 7) / 180)) - R9,CG + W + D + (W * LOCK_PERCENTAGE %) -  R9,R9,R9,270,0,,Cut
+100,6,B,(G + L)- ((W/2)/(TAN(T6 * (22 / 7) / 180)) - R9),CG + W + D + (W * LOCK_PERCENTAGE %) -  R9,R9,R9,180,270,,Cut
+101,6,B,G + L + (W/2) + Y1 + X6,CG + W + D + (W * LOCK_PERCENTAGE %) - ((W * LOCK_PERCENTAGE %) - (L/2 - CTBK)) - (((W * LOCK_PERCENTAGE %) - (W/2)/(TAN(T6 * (22 / 7) / 180))) - ((W * LOCK_PERCENTAGE %) - (L/2 - CTBK))) / 2,(((W * LOCK_PERCENTAGE %) - (W/2)/(TAN(T6 * (22 / 7) / 180))) - ((W * LOCK_PERCENTAGE %) - (L/2 - CTBK))) / 2,(((W * LOCK_PERCENTAGE %) - (W/2)/(TAN(T6 * (22 / 7) / 180))) - ((W * LOCK_PERCENTAGE %) - (L/2 - CTBK))) / 2,90,270,,Cut
+102,6,B,G + L+ W+ (W/2)/(TAN(T6 * (22 / 7) / 180)) + R9,CG + W + D + (W * LOCK_PERCENTAGE %) -  R9,R9,R9,180,270,,Cut
+103,6,B,G + L+ W+ L- (W/2)/(TAN(T6 * (22 / 7) / 180)) - R9,CG + W + D + (W * LOCK_PERCENTAGE %) -  R9,R9,R9,270,0,,Cut
+104,6,B,G + L +W +L+W-CTBK- (W/2)/(TAN(T63 * (22 / 7) / 180)),CG + W + D + (W * LOCK_PERCENTAGE %) - ((W * LOCK_PERCENTAGE %) - (L/2 - CTBK)) - (((W * LOCK_PERCENTAGE %) - (W/2)/(TAN(T6 * (22 / 7) / 180))) - ((W * LOCK_PERCENTAGE %) - (L/2 - CTBK))) / 2,(((W * LOCK_PERCENTAGE %) - (W/2)/(TAN(T6 * (22 / 7) / 180))) - ((W * LOCK_PERCENTAGE %) - (L/2 - CTBK))) / 2,(((W * LOCK_PERCENTAGE %) - (W/2)/(TAN(T6 * (22 / 7) / 180))) - ((W * LOCK_PERCENTAGE %) - (L/2 - CTBK))) / 2,270,90,,Cut
+105,7,A,G + E - R5,CG + W + D + W - R5,R5,R5,270,0,,Cut
+106,7,A,G + L - R5,CG + W + D + W - R5,R5,R5,270,0,,Cut
+107,7,A,G + L - Y - C,CG + W + D + W + X4,C,C,270,0,,Cut
+108,7,A,G + L + W - Y1 - R13,CG + W + D + S2 - R13,R13,R13,315,0,,Cut
+109,7,A,G + E - R5,CG + W -W + R5,R5,R5,0,90,,Cut
+110,7,A,G + L - R5,CG + W -W + R5,R5,R5,0,90,,Cut
+111,7,A,G + L - Y - C,CG + W -W - X4,C,C,0,90,,Cut
+112,7,A,G + L + W - Y1 - R13,CG + W + 0 - S2 + R13,R13,R13,0,45,,Cut
+113,7,A,G + R5,CG + W -W + R5,R5,R5,90,180,,Cut
+114,7,A,G + L - E + R5,CG + W -W + R5,R5,R5,90,180,,Cut
+115,7,A,G + Y + C,CG + W -W - X4,C,C,90,180,,Cut
+116,7,A,G + L + W + L + Y1 + R13,CG + W + 0 - S2 + R13,R13,R13,135,180,,Cut
+117,7,A,G + R5,CG + W + D + W - R5,R5,R5,180,-90,,Cut
+118,7,A,G + L - E + R5,CG + W + D + W - R5,R5,R5,180,-90,,Cut
+119,7,A,G + Y + C,CG + W + D + W + X4,C,C,180,-90,,Cut
+120,7,A,G + L + W + L + Y1 + R13,CG + W + D + S2 - R13,R13,R13,180,-135,,Cut
+121,7,B,G+ L + W + E - R5,CG + W + D + W - R5,R5,R5,270,0,,Cut
+122,7,B,G + L + W+ L - R5,CG + W + D + W - R5,R5,R5,270,0,,Cut
+123,7,B,G+ L + W+ L - Y - C,CG + W + D + W + X4,C,C,270,0,,Cut
+124,7,B,G+ L + W+ L + W - Y1 - R13,CG + W + D + S2 - R13,R13,R13,315,0,,Cut
+125,7,B,G+ L + W+ E - R5,CG + W -W + R5,R5,R5,0,90,,Cut
+126,7,B,G+ L + W+ L - R5,CG + W -W + R5,R5,R5,0,90,,Cut
+127,7,B,G + L + W+ L - Y - C,CG + W -W - X4,C,C,0,90,,Cut
+128,7,B,G+ L + W+ L + W - Y1 - R13,CG + W + 0 - S2 + R13,R13,R13,0,45,,Cut
+129,7,B,G+ L + W + R5,CG + W -W + R5,R5,R5,90,180,,Cut
+130,7,B,G+ L + W + L - E + R5,CG + W -W + R5,R5,R5,90,180,,Cut
+131,7,B,G + L + W+ Y + C,CG + W -W - X4,C,C,90,180,,Cut
+132,7,B,G + L + Y1 + R13,CG + W + 0 - S2 + R13,R13,R13,135,180,,Cut
+133,7,B,G+ L + W + R5,CG + W + D + W - R5,R5,R5,180,-90,,Cut
+134,7,B,G+ L + W+ L - E + R5,CG + W + D + W - R5,R5,R5,180,-90,,Cut
+135,7,B,G+ L + W + Y + C,CG + W + D + W + X4,C,C,180,-90,,Cut
+136,7,B,G + L + Y1 + R13,CG + W + D + S2 - R13,R13,R13,180,-135,,Cut
+137,8,A,G + E - R5,CG + W + D + W - R5,R5,R5,270,0,,Cut
+138,8,A,G + L - R5,CG + W + D + W - R5,R5,R5,270,0,,Cut
+139,8,A,G + L - Y - C,CG + W + D + W + X4,C,C,270,0,,Cut
+140,8,A,G + L + W - Y1 - R13,CG + W + D + S2 - R13,R13,R13,315,0,,Cut
+141,8,A,G + E - R5,CG + W -W + R5,R5,R5,0,90,,Cut
+142,8,A,G + L - R5,CG + W -W + R5,R5,R5,0,90,,Cut
+143,8,A,G + L - Y - C,CG + W -W - X4,C,C,0,90,,Cut
+144,8,A,G + L + W - Y1 - R13,CG + W + 0 - S2 + R13,R13,R13,0,45,,Cut
+145,8,A,G + R5,CG + W -W + R5,R5,R5,90,180,,Cut
+146,8,A,G + L - E + R5,CG + W -W + R5,R5,R5,90,180,,Cut
+147,8,A,G + Y + C,CG + W -W - X4,C,C,90,180,,Cut
+148,8,A,G + L + W + L + Y1 + R13,CG + W + 0 - S2 + R13,R13,R13,135,180,,Cut
+149,8,A,G + R5,CG + W + D + W - R5,R5,R5,180,-90,,Cut
+150,8,A,G + L - E + R5,CG + W + D + W - R5,R5,R5,180,-90,,Cut
+151,8,A,G + Y + C,CG + W + D + W + X4,C,C,180,-90,,Cut
+152,8,A,G + L + W + L + Y1 + R13,CG + W + D + S2 - R13,R13,R13,180,-135,,Cut
+153,8,B,G+ L + W + E - R5,CG + W + D + W - R5,R5,R5,270,0,,Cut
+154,8,B,G + L + W+ L - R5,CG + W + D + W - R5,R5,R5,270,0,,Cut
+155,8,B,G+ L + W+ L - Y - C,CG + W + D + W + X4,C,C,270,0,,Cut
+156,8,B,G+ L + W+ L + W - Y1 - R13,CG + W + D + S2 - R13,R13,R13,315,0,,Cut
+157,8,B,G+ L + W+ E - R5,CG + W -W + R5,R5,R5,0,90,,Cut
+158,8,B,G+ L + W+ L - R5,CG + W -W + R5,R5,R5,0,90,,Cut
+159,8,B,G + L + W+ L - Y - C,CG + W -W - X4,C,C,0,90,,Cut
+160,8,B,G+ L + W+ L + W - Y1 - R13,CG + W + 0 - S2 + R13,R13,R13,0,45,,Cut
+161,8,B,G+ L + W + R5,CG + W -W + R5,R5,R5,90,180,,Cut
+162,8,B,G+ L + W + L - E + R5,CG + W -W + R5,R5,R5,90,180,,Cut
+163,8,B,G + L + W+ Y + C,CG + W -W - X4,C,C,90,180,,Cut
+164,8,B,G + L + Y1 + R13,CG + W + 0 - S2 + R13,R13,R13,135,180,,Cut
+165,8,B,G+ L + W + R5,CG + W + D + W - R5,R5,R5,180,-90,,Cut
+166,8,B,G+ L + W+ L - E + R5,CG + W + D + W - R5,R5,R5,180,-90,,Cut
+167,8,B,G+ L + W + Y + C,CG + W + D + W + X4,C,C,180,-90,,Cut
+168,8,B,G + L + Y1 + R13,CG + W + D + S2 - R13,R13,R13,180,-135,,Cut

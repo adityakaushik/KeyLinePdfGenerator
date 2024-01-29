@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "f673cbdb-8623-4d87-ba68-e5364229624b",
+		"name": "KeyLinECreator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1186790"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/tutorials/invertedKeyLine",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\t {\r\n     \"templateId\":1,\r\n\t \"L\": 60,\r\n\t \"W\": 30,\r\n\t \"D\": 80,\r\n\t \"CTBK\":0.5,\r\n\t \"TUCKIN\":12,\r\n\t \"PASTING\":10,\r\n\t \"numX\":2,\r\n\t \"numY\":2\r\n     }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/createKeylines/invertedKeyLine/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"createKeylines",
+						"invertedKeyLine",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/tutorials/invertedKeyLine/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\t {\r\n     \"templateId\":1,\r\n\t \"L\": 60,\r\n\t \"W\": 30,\r\n\t \"D\": 80,\r\n\t \"CTBK\":0.5,\r\n\t \"TUCKIN\":12,\r\n\t \"PASTING\":10,\r\n\t \"numX\":2,\r\n\t \"numY\":2\r\n     }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/createKeylines/invertedKeyLine/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"createKeylines",
+						"invertedKeyLine",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/tutorials/inverted",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/tutorials/inverted",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"tutorials",
+						"inverted"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

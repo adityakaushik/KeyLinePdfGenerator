@@ -1,0 +1,9 @@
+ShapeTemplateId,ShapeTemplateName,Descripton,Remarks,CuttingRuleFormula,CreasingRuleFormula,ImageId,iImage,AreaCalculationFormula
+1,BSO,Both Side Opening / Reverse Tuck In,,,,5,,
+2,LBTO,Lock Bottom Top Opening (Pasting),,,,4,,
+3,BSP,Both Side Pasting / Overlap Flaps On Both Sides and To Be Pasted For Sealing,,,,6,,
+4,LBTO INTERLOCK,Lock Bottom Top Opening (Interlock),,,,7,,
+5,LABEL,Rectangle Label,,,,8,,
+6,LBTO INTERLOCK SQUARE,Lock Bottom Top Opening (Interlock) Square Cartons,,,,7,,
+7,BSO SS FLAP,Both Side Opening Carton with Both the Tuckin Flaps on the Same Panel.,,,,5,,
+8,BSO With STD. HANGER,Both Side Opening with a Standard Sze Hanger Flap which is not bigger than the Sum of Width & Tuckin Flap.,,,,,,
